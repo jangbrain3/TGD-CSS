@@ -1,0 +1,16 @@
+/* 공지 배경 세팅 */ 
+/* 일괄 단색 */
+
+#article-list > .article-list-row.notice {
+    background-color: rgba(0,0,0,.7);
+    background-color: #484847;
+}
+
+
+/* 게시물 별 세팅 */
+
+#article-list-row-2820544,#article-list-row-2820544:hover{
+	background-image:url(http://puu.sh/z1Bp1/b0107a2714.png)!important;
+	background-position: 50% 50%!important;
+}
+

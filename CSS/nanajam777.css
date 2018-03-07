@@ -6,13 +6,10 @@
 
 /* 
 ** This script is designed for PC Web Platform. 
-** Current version : v1.02 (WIP)
-** Changed : 
-*** Header Top Bar Padding
-*** ColorKeyframes added
+** Current version : v1.02
+** Ozic Woojeonging
 */
 
-/* 메인 로고 변경 */
 header .row>div:nth-child(1)>a {
     background-repeat: no-repeat;
     display: block;
@@ -21,12 +18,10 @@ header .row>div:nth-child(1)>a {
     background-image: url(https://github.com/Ingether/TGD-CSS/blob/master/Images/logo.png?raw=true);
 }
 
-/* 기존 로고 투명도 0 */
 header .row>div:nth-child(1)>a img {
     opacity: 0;
 }
 
-/* 헤더 패딩 감소 */
 header #header-bar {
     margin-top: 0.2em;
     margin-bottom: 1em;
@@ -34,7 +29,6 @@ header #header-bar {
     padding-left: 30px;
 }
 
-/* 돋보기 */
 header #right-search-form>#right-search-btn {
     color: #0099ff;
     background: transparent;
@@ -42,7 +36,6 @@ header #right-search-form>#right-search-btn {
     font-size: 1.4em
 }
 
-/* 검색창 */
 header #right-search-form>input[type=text] {
     position: relative;
     border: 3px solid #0099ff;
@@ -126,23 +119,21 @@ header #header-bar #header-top-notice strong.notice-badge {
     cursor : text;
 }
 
-
-/* 공지 배경 세팅 */ 
-/* 일괄 단색 */
-/*
-#article-list > .article-list-row.notice {
-    background-color: rgba(0,0,0,.7);
-    background-color: #484847;
+.btn-primary {
+    background: #0099ff;
 }
-*/
 
-/* 게시물 별 세팅 */
-/*
-#article-list-row-2820544,#article-list-row-2820544:hover{
-	background-image:url(http://puu.sh/z1Bp1/b0107a2714.png)!important;
-	background-position: 50% 50%!important;
+.btn-primary:hover {
+    animation-duration: 3s; 
+    animation-name:  rainbowLinkBG;
+    animation-iteration-count: infinite;
 }
-*/
+
+.pagination > li > a:hover{
+    animation-duration: 1.5s; 
+    animation-name:  AquaLinkBG;
+    animation-iteration-count: infinite;
+}
 
 #article-list > #article-list-row-2820544 {
     background-color: #d4eeff;
