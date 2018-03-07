@@ -1,6 +1,13 @@
-/* Made by J4 */
+/* 
+** Support : Discord JEON#3534 
+** Github : http://github.com/Ingether/TGD-CSS/
+** Copyright(c)2018 All rights reserved by nanajam777
+*/
 
-/*pc*/
+/* 
+** This script is designed for PC Web Platform. 
+** Current version : v1.01
+*/
 
 /* 메인 로고 변경 */
 header .row>div:nth-child(1)>a {
@@ -11,8 +18,17 @@ header .row>div:nth-child(1)>a {
     background-image: url(https://github.com/Ingether/TGD-CSS/blob/master/Images/logo.png?raw=true);
 }
 
+/* 기존 로고 투명도 0 */
 header .row>div:nth-child(1)>a img {
     opacity: 0;
+}
+
+/* 헤더 패딩 감소 */
+header #header-bar {
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 /* 돋보기 */
@@ -88,7 +104,24 @@ header #header-bar #header-top-notice strong.notice-badge {
     background: #99ccff;
 }
 
-/* Individual */ 
+#board-info #viewers-area #viewers:before {
+    content:"심심한 우애나 ";
+}
+#board-info #viewers-area #viewers:after {
+    content:"명";
+}
+
+
+/* 공지 배경 세팅 */ 
+/* 일괄 단색 */
+/*
+#article-list > .article-list-row.notice {
+    background-color: rgba(0,0,0,.7);
+    background-color: #484847;
+}
+*/
+
+/* 게시물 별 세팅 */
 /*
 #article-list-row-2820544,#article-list-row-2820544:hover{
 	background-image:url(http://puu.sh/z1Bp1/b0107a2714.png)!important;
@@ -96,9 +129,11 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 */
 
-#board-info #viewers-area #viewers:before{
-    content:"우애나 ";
+/* 공지 글 컬러배경 */
+
+#article-list > #article-list-row-2820544 {
+    background-color: #d4eeff;
 }
-#board-info #viewers-area #viewers:after{
-content:"명";
+#article-list > #article-list-row-2820544:hover {
+    background-color: #99ccff;
 }
