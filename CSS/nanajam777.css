@@ -1,12 +1,12 @@
-    /* 
-    ** Support : Discord JEON#3534 
+    /*
+    ** Support : Discord JEON#3534
     ** Github : http://github.com/Ingether/TGD-CSS/
     ** Copyright(c)2018 All rights reserved by nanajam777
     */
 
-    /* 
-    ** This script is designed for PC Web Platform. 
-    ** Current version : v1.03
+    /*
+    ** This script is designed for PC Web Platform.
+    ** Current version : v1.03p
     ** Release date : 18.03.08
     ** Ozic Woojeonging
     */
@@ -112,7 +112,7 @@
     #article-list #article-list-category > a:hover{
         display: inline-block;
         padding: 11px 16px;
-        animation-duration: 1.5s; 
+        animation-duration: 1.5s;
         animation-name:  AquaLinkBG;
         animation-iteration-count: infinite;
         text-decoration: none;
@@ -150,13 +150,13 @@
     }
 
     .btn-primary:hover {
-        animation-duration: 3s; 
+        animation-duration: 3s;
         animation-name:  rainbowLinkBG;
         animation-iteration-count: infinite;
     }
 
     .pagination > li > a:hover{
-        animation-duration: 1.5s; 
+        animation-duration: 1.5s;
         animation-name:  AquaLinkBG;
         animation-iteration-count: infinite;
     }
@@ -165,7 +165,7 @@
         background-color: #d4eeff;
     }
     #article-list > #article-list-row-2820544:hover {
-        animation-duration: 1.5s; 
+        animation-duration: 1.5s;
         animation-name:  AquaLinkBG;
         animation-iteration-count: infinite;
     }
@@ -176,17 +176,17 @@
         animation-iteration-count: infinite;
     }
 
-    @keyframes rainbowLink {     
+    @keyframes rainbowLink {
         0% { color: #ff2a2a; }
         15% { color: #ff7a2a; }
         30% { color: #ffc52a; }
         45% { color: #43ff2a; }
         60% { color: #2a89ff; }
         75% { color: #202082; }
-        90% { color: #6b2aff; } 
+        90% { color: #6b2aff; }
         100% { color: #e82aff; }
     }
-    
+
     @keyframes rainbowLinkBG {
         0% { background-color: #ff2a2a; }
         15% { background-color: #ff7a2a; }
@@ -194,7 +194,7 @@
         45% { background-color: #43ff2a; }
         60% { background-color: #2a89ff; }
         75% { background-color: #202082; }
-        90% { background-color: #6b2aff; } 
+        90% { background-color: #6b2aff; }
         100% { background-color: #e82aff; }
     }
 
