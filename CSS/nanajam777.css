@@ -6,7 +6,8 @@
 header .row>div:nth-child(1)>a {
     background-repeat: no-repeat;
     display: block;
-    height: 60px;
+    width: 139px;
+    height: 50px;
     background-image: url(https://github.com/Ingether/TGD-CSS/blob/master/Images/logo.png?raw=true);
 }
 
@@ -34,8 +35,8 @@ header #right-search-form>input[type=text] {
 header #header-bar>.row {
     padding-top: 0.3em;
     padding-bottom: 0.3em;
-    border-top: 8px solid #0099ff;
-    background: #fff;
+    border-top: 4px solid #0099ff;
+    background: #d4eeff;
     border-bottom: 2px solid #ebeae8;
     border-right: 2px solid #ebeae8
 }
@@ -85,4 +86,19 @@ header #header-bar #header-top-notice strong.notice-badge {
 #article-list #article-list-category {
     border-top: 3px solid #0099ff;
     background: #99ccff;
+}
+
+/* Individual */ 
+/*
+#article-list-row-2820544,#article-list-row-2820544:hover{
+	background-image:url(http://puu.sh/z1Bp1/b0107a2714.png)!important;
+	background-position: 50% 50%!important;
+}
+*/
+
+#board-info #viewers-area #viewers:before{
+    content:"우애나 ";
+}
+#board-info #viewers-area #viewers:after{
+content:"명";
 }
