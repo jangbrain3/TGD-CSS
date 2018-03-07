@@ -14,11 +14,11 @@
 }
 
 #article-list > .article-list-row {
-  background: #d4eeff !important;
+  /* background: #d4eeff !important;*/
 }
 
 #article-list > .article-list-row.notice {
-  background: #ffffff !important;
+  background: #d4eeff !important;
 }
 
 header > #header-area > a > h1 {
@@ -54,7 +54,7 @@ header {
 
 #board-info {
   border-top: 4px solid #0099ff;
-  background: #d4eeff;
+  background: #99ccff;
 }
 
 #header-top-notice a {
@@ -77,6 +77,23 @@ span.a-badge i.fa.fa-info-circle {
 
 .pagination > li > a, .pagination > li > span:hover {
   color: #0099ff;
+}
+
+.btn-primary {
+    animation-duration: 3s; 
+    animation-name:  rainbowLinkBG;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbowLinkBG {
+    0% { background-color: #ff2a2a; }
+    15% { background-color: #ff7a2a; }
+    30% { background-color: #ffc52a; }
+    45% { background-color: #43ff2a; }
+    60% { background-color: #2a89ff; }
+    75% { background-color: #202082; }
+    90% { background-color: #6b2aff; } 
+    100% { background-color: #e82aff; }
 }
 
 /* Navigator */
