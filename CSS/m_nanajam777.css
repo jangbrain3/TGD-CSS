@@ -1,3 +1,14 @@
+/* 
+** Support : Discord JEON#3534 
+** Github : http://github.com/Ingether/TGD-CSS/
+** Copyright(c)2018 All rights reserved by nanajam777
+*/
+
+/* 
+** This script is designed for mobile devices. 
+** Current version : v1.0m (WIP)
+*/
+
 #main-content, body, footer {
   background: #d4eeff !important;
 }
@@ -36,6 +47,16 @@ header {
     opacity: 0;
 }
 
+
+#article-list #article-list-category {
+  height: 0px;
+}
+
+#board-info {
+  border-top: 4px solid #0099ff;
+  background: #d4eeff;
+}
+
 #header-top-notice a {
   font-weight: bold;
   color: #0099ff !important;
@@ -67,4 +88,3 @@ nav#nav > .nav-header {
 header > #header-area > #header-search-link {
     color: #0099ff;
 }
-
