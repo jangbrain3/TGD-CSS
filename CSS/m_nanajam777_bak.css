@@ -1,3 +1,15 @@
+/* 
+** Support : Discord JEON#3534 
+** Github : http://github.com/Ingether/TGD-CSS/
+** Copyright(c)2018 All rights reserved by nanajam777
+*/
+
+/* 
+** This script is designed for mobile devices. 
+** Current version : v1.0m (WIP)
+** @import url("https://raw.githubusercontent.com/Ingether/TGD-CSS/master/CSS/m_nanajam777.css");
+*/
+
 #main-content, body, footer {
   background: #d4eeff !important;
 }
