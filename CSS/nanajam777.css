@@ -6,7 +6,10 @@
 
 /* 
 ** This script is designed for PC Web Platform. 
-** Current version : v1.01
+** Current version : v1.02 (WIP)
+** Changed : 
+*** Header Top Bar Padding
+*** ColorKeyframes added
 */
 
 /* 메인 로고 변경 */
@@ -90,10 +93,20 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-radius: 100px
 }
 
-#article-list #article-list-category>a {
+#article-list #article-list-category > a {
     display: inline-block;
     padding: 11px 16px;
     background: #d4eeff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold
+}
+#article-list #article-list-category > a:hover{
+    display: inline-block;
+    padding: 11px 16px;
+    animation-duration: 1.5s; 
+    animation-name:  AquaLinkBG;
+    animation-iteration-count: infinite;
     text-decoration: none;
     font-size: 12px;
     font-weight: bold
@@ -105,10 +118,12 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #board-info #viewers-area #viewers:before {
-    content:"심심한 우애나 ";
+    content: "심심한 우애나 ";
+    cursor: text;
 }
 #board-info #viewers-area #viewers:after {
     content:"명";
+    cursor : text;
 }
 
 
@@ -129,11 +144,39 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 */
 
-/* 공지 글 컬러배경 */
-
 #article-list > #article-list-row-2820544 {
     background-color: #d4eeff;
 }
 #article-list > #article-list-row-2820544:hover {
-    background-color: #99ccff;
+    animation-duration: 1.5s; 
+    animation-name:  AquaLinkBG;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbowLink {     
+    0% { color: #ff2a2a; }
+    15% { color: #ff7a2a; }
+    30% { color: #ffc52a; }
+    45% { color: #43ff2a; }
+    60% { color: #2a89ff; }
+    75% { color: #202082; }
+    90% { color: #6b2aff; } 
+    100% { color: #e82aff; }
+}
+   
+@keyframes rainbowLinkBG {
+    0% { background-color: #ff2a2a; }
+    15% { background-color: #ff7a2a; }
+    30% { background-color: #ffc52a; }
+    45% { background-color: #43ff2a; }
+    60% { background-color: #2a89ff; }
+    75% { background-color: #202082; }
+    90% { background-color: #6b2aff; } 
+    100% { background-color: #e82aff; }
+}
+
+@keyframes AquaLinkBG {
+    0% { background-color: #d4eeff; }
+    40% { background-color: #99ccff; }
+    100% { background-color: #d4eeff; }
 }
