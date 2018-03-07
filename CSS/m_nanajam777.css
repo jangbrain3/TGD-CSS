@@ -13,16 +13,12 @@
   background: #d4eeff !important;
 }
 
-#article-list > .article-list-row {
-  /* background: #d4eeff !important;*/
-}
-
 #article-list > .article-list-row.notice {
   background: #d4eeff !important;
 }
 
 header > #header-area > a > h1 {
-    background: url(https://github.com/Ingether/TGD-CSS/blob/master/Images/logo.png?raw=true) no-repeat;
+    background: url(https://ingether.github.com/TGD-CSS/Images/logo.png) no-repeat;
     background-size: 90px 32px;
 }
 
