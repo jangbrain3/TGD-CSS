@@ -1,0 +1,81 @@
+/* 
+** Support : Discord JEON#3534 
+** Github : http://github.com/Ingether/TGD-CSS/
+** Copyright(c)2018 All rights reserved by nanajam777
+*/
+
+/* 
+** This script is designed for mobile devices. 
+** Current version : v1.0m (WIP)
+*/
+
+#main-content, body, footer {
+  background: #d4eeff !important;
+}
+
+#article-list > .article-list-row {
+  background: #d4eeff !important;
+}
+
+#article-list > .article-list-row.notice {
+  background: #ffffff !important;
+}
+
+header > #header-area > a > h1 {
+    background: url(https://github.com/Ingether/TGD-CSS/blob/master/Images/logo.png?raw=true) no-repeat;
+    background-size: 90px 32px;
+}
+
+header {
+  border-bottom-color: #0099ff !important;
+  background: #d4eeff !important;
+}
+
+#header-top-notice strong.notice-badge {
+  background: #0099ff !important;
+}
+
+#article-list > .article-list-row.notice > .item > a.list-title > .list-writer {
+  height: 0px !important;
+  opacity: 0 !important;
+}
+
+#header-top-notice strong.notice-badge {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: -2em;
+    opacity: 0;
+}
+
+#header-top-notice a {
+  font-weight: bold;
+  color: #0099ff !important;
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+  background-color: #0099ff !important;
+}
+
+span.a-badge i.fa.fa-info-circle {
+  color: red !important;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #0099ff;
+    border-color: #0099ff;
+}
+
+.pagination > li > a, .pagination > li > span:hover {
+  color: #0099ff;
+}
+
+/* Navigator */
+
+nav#nav > .nav-header {
+    background: #0099ff;
+}
+
+header > #header-area > #header-search-link {
+    color: #0099ff;
+}
+
