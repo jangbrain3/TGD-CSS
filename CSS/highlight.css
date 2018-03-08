@@ -5,7 +5,7 @@
 { Animation: infinite AnimFeed 2s; }
 
 @keyframes AnimFeed {
-    0% { background-color: #d4eeff; }
-    40% { background-color: #99ccff; }
-    100% { background-color: #d4eeff; }
+    0% { background-color: #ffffff; }
+    40% { background-color: #d4eeff; }
+    100% { background-color: #ffffff; }
 }
