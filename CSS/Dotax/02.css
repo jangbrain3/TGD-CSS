@@ -1,0 +1,6 @@
+
+dl, dt, dd	{padding:0; margin:0;}
+.exif_info	{border:#c1c1c1 solid 1px; background:#fff; width:186px; padding:10px 10px 5px 10px; position:absolute; top:0; left:74px; margin-left:12px;}
+.exif_info dt, .exif_info dd	{float:left;}
+.exif_info dt	{width:80px; font-size:11px; color:#999; height:18px}
+.exif_info dd	{width:70px; font-size:11px; color:#ff6633; font-family:tahoma; height:18px}

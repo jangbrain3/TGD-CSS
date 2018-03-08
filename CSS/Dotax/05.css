@@ -1,0 +1,16 @@
+#DragSchLayer {
+ display:block;
+ position:absolute;
+ z-index:1000;
+ width:61px;
+ height:31px;
+ margin:-30px 0px 0px -5px;
+ background:url(http://search1.daumcdn.net/search/statics/common/pi/btn_drag_rect.png);
+ cursor:pointer
+}
+@media             only screen and (-webkit-min-device-pixel-ratio: 1.5),             only screen and (min-device-pixel-ratio: 1.5),             only screen and (min-resolution: 1.5dppx) {
+ #DragSchLayer {
+  background-image:url(http://search1.daumcdn.net/search/statics/common/pi/r2/btn_drag_rect.png);
+  background-size:61px 31px
+ }
+}
