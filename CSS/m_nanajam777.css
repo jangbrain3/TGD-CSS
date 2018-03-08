@@ -6,18 +6,42 @@
 
 /* 
 ** This script is designed for mobile devices. 
-** Current version : v1.03 
-** Release date : 18.03.08
+** Current version : v1.04m
+** Release date : 18.03.09
 ** Ozic Woojeonging
 */
 
-#main-content, body, footer {
-  background: #d4eeff !important;
+/* 소스 정리중입니다. 관련제보는 트게더 '잉게더'로 쪽지보내주시거나, 디스코드, 메일을 통해주세요. */
+
+/* Font Import : 나눔 고딕 */
+/*
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.ttf) format('truetype');
 }
 
-#article-list > .article-list-row.notice {
-  background: #d4eeff !important;
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.ttf) format('truetype');
 }
+* { font-family: 'Nanum Gothic'; }
+*/
+
+
+#main-content, body, footer { background: #d4eeff !important; }
+#article-list > .article-list-row.notice { background: #d4eeff !important; }
 
 header > #header-area > a > h1 {
     background: url(https://ingether.github.io/TGD-CSS/Images/logo.png) no-repeat;
@@ -42,25 +66,19 @@ header {
   width: 0px;
 }
 
-#article-list > .article-list-row.notice > .item > a.list-title {
-  vertical-align: middle;
-}
+#article-list > .article-list-row.notice > .item > a.list-title { vertical-align: middle; }
 #article-list > .article-list-row.notice > .item > a.list-title > .list-writer {
   height: 0px !important;
   opacity: 0 !important;
   padding: 0px;
 }
 
-#article-list > .article-list-row.notice > .item > .list-header {
-  width:12px;
-}
-#article-list > .article-list-row > .item > span.a-badge {
-  width: 40px;
-}
-
-#article-list > .article-list-row.notice > .item > a.list-title > .title-value {
-  padding-left: 6px;
-}
+#article-list > .article-list-row.notice > .item > .list-header { width:12px; }
+#article-list > .article-list-row.notice > .item > a.list-title > .title-value { padding-left: 6px; }
+#article-list > .article-list-row > .item > span.a-badge { width: 40px; }
+#article-list > .article-list-row > .item > a.list-title > .title-value { max-width: 240px; }
+#article-list > .article-list-row > .item > .list-header > span { background-color: #0099ff !important; }
+#article-list > .article-list-row > .item > a.list-title > .list-writer.logged > span { color: #0099ff; }
 
 #header-top-notice strong.notice-badge {
     padding-left: 0;
@@ -69,10 +87,8 @@ header {
     opacity: 0;
 }
 
-#article-list #article-list-category {
-  background: #d4eeff;
-}
-
+/* 일반 게시글 리스트 */
+#article-list #article-list-category { background: #d4eeff; }
 #article-list #article-list-category > a {
   display: inline-block;
   padding: 11px 16px;
@@ -92,17 +108,12 @@ header {
   border-left: 2px solid #0099ff;
   border-right: 2px solid #0099ff;
 }
+
 header > #header-area > #header-bar-link {
   color: #0099ff;
 }
 
-#article-list > .article-list-row > .item > a.list-title > .title-value {
-  max-width: 240px;
-}
 
-#article-list > .article-list-row > .item > .list-header > span {
-  background-color: #0099ff !important;
-}
 
 #board-info {
   border-top: 4px solid #0099ff;
@@ -113,9 +124,9 @@ header > #header-area > #header-bar-link {
 
 #board-info > a.board-right-menu {
   max-height: 40px;
-  border-left: 4px solid #0099ff;
-  border-bottom: 4px solid #0099ff;
+  border: 0px;
   vertical-align: middle;
+  color: #0066cc;
 }
 
 #header-top-notice a {
@@ -123,18 +134,17 @@ header > #header-area > #header-bar-link {
   color: #0099ff !important;
 }
 
-span.a-badge i.fa.fa-info-circle {
-  color: red !important;
-}
+span.a-badge i.fa.fa-info-circle { color: red !important; }
 
-.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+.pagination > .active > a, .pagination > .active > a:focus, 
+.pagination > .active > a:hover, .pagination > .active > span, 
+.pagination > .active > span:focus, .pagination > .active > span:hover {
     background-color: #0099ff;
     border-color: #0099ff;
 }
 
-.pagination > li > a, .pagination > li > span:hover {
-  color: #0099ff;
-}
+
+.pagination > li > a, .pagination > li > span:hover { color: #0099ff; }
 
 .btn-primary {
   border: 0px;
@@ -148,18 +158,14 @@ background: #d4eeff !important;
 border-top: 2px solid #0099ff;
 }
 
-#article-reply-area #reply-real-area .reply > .reply-header {
-background: #d4eeff !important;
-}
+#article-reply-area > .header h5 { color: #0099ff; }
+#article-reply-area #reply-real-area .reply > .reply-header { background: #d4eeff !important; }
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged { color: #0066cc !important; }
 
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged {
-color: #0066cc !important;
-}
+header > #header-search-bar #header-search-input { border: 2px solid #0066cc; }
+header > #header-search-bar #header-search-btn { color: #0099ff; }
 
-#article-reply-area > .header h5 {
-color: #0099ff;
-}
-
+/* Animations */
 @keyframes rainbowLinkBG {
     0% { background-color: #ff2a2a; }
     15% { background-color: #ff7a2a; }
@@ -172,11 +178,5 @@ color: #0099ff;
 }
 
 /* Navigator */
-
-nav#nav > .nav-header {
-    background: #0099ff;
-}
-
-header > #header-area > #header-search-link {
-    color: #0099ff;
-}
+nav#nav > .nav-header { background: #0099ff; }
+header > #header-area > #header-search-link { color: #0099ff; }
