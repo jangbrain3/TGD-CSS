@@ -10,7 +10,8 @@
     ** Release date : 18.03.09
     ** Ozic Woojeonging
     */
-
+    @import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
+    
     header .row>div:nth-child(1)>a {
         background-repeat: no-repeat;
         display: block;
@@ -188,5 +189,3 @@
         40% { background-color: #99ccff; }
         100% { background-color: #d4eeff; }
     }
-
-@import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
