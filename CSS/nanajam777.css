@@ -6,8 +6,8 @@
 
     /*
     ** This script is designed for PC Web Platform.
-    ** Current version : v1.03p
-    ** Release date : 18.03.08
+    ** Current version : v1.04p
+    ** Release date : 18.03.09
     ** Ozic Woojeonging
     */
 
@@ -158,21 +158,6 @@
     .pagination > li > a:hover{
         animation-duration: 1.5s;
         animation-name:  AquaLinkBG;
-        animation-iteration-count: infinite;
-    }
-
-    #article-list > #article-list-row-2820544 {
-        background-color: #d4eeff;
-    }
-    #article-list > #article-list-row-2820544:hover {
-        animation-duration: 1.5s;
-        animation-name:  AquaLinkBG;
-        animation-iteration-count: infinite;
-    }
-
-    #article-list > #article-list-row-3096391 {
-        animation-duration: 1.5s;
-        animation-name: AquaLinkBG;
         animation-iteration-count: infinite;
     }
 

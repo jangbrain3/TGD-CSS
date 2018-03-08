@@ -1,0 +1,11 @@
+
+/* Feed */
+#article-list > #article-list-row-3109331 
+
+{ Animation: infinite AnimFeed 2s; }
+
+@keyframes AnimFeed {
+    0% { background-color: #d4eeff; }
+    40% { background-color: #99ccff; }
+    100% { background-color: #d4eeff; }
+}
