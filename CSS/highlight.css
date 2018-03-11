@@ -8,7 +8,8 @@
 /* 피드 게시글 목록 */
 /* [a]에 ,#article-lists > #article-list-row-[트게더글번호] 추가 기재해서 사용 */
 
-#article-list > #article-list-row-3109331 
+#article-list > #article-list-row-3109331,
+#article-list > #article-list-row-3137467 
 /* [a] */
 { Animation: infinite AnimFeed 2s; }
 
