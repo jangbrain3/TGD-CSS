@@ -1,3 +1,0 @@
-
-body, body * { -moz-user-focus:ignore; user-focus:ignore; /* -moz-user-input:disabled; */ -moz-user-select:-moz-none; -webkit-user-select:none; user-select:none; }
-html body input, html body textarea { -moz-user-focus:normal; user-focus:normal; -moz-user-input:enabled; user-input:enabled; -moz-user-select:text; -webkit-user-select:text; user-select:text; }

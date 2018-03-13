@@ -1,6 +1,0 @@
-
-    .view_detail {display:none;position:absolute;top:0;left:0;width:100%;height:100%;background:url('//mk.kakaocdn.net/dn/emoticon/static/images/sdk/detail_view.png') no-repeat center center;background-size:contain;text-indent:-9999px;}
-	.kakao_emoticon {position:relative;width:70px;height:70px;}
-    .kakao_emoticon.anicon {position:relative;width:90px;height:70px;}
-	.kakao_emoticon img {width:70px;height:70px;}
-	.kakao_emoticon.anicon img {width:90px;height:70px;}
