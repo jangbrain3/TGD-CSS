@@ -14,6 +14,10 @@
 /* [a] */
 { Animation: infinite AnimFeed 2s; }
 
+#article-list > #article-list-row-3245130 span.a-badge i.fa.fa-star {
+    animation: infinite rainbowLink 1s;
+}
+
 @keyframes AnimFeed {
     0% { background-color: #ffffff; }
     40% { background-color: #d4eeff; }
