@@ -14,7 +14,8 @@
 /* [a] */
 { Animation: infinite AnimFeed 2s; }
 
-#article-list > #article-list-row-3245130 span.a-badge i.fa.fa-star {
+#article-list > #article-list-row-3245130 span.a-badge i.fa.fa-star,
+#article-list > #article-list-row-3365667 span.a-badge i.fa.fa-star {
     animation: infinite rainbowLink 1s;
 }
 
