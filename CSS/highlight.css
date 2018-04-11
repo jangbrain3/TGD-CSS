@@ -8,17 +8,21 @@
 /* 피드 게시글 목록 */
 /* [a]에 ,#article-lists > #article-list-row-[트게더글번호] 추가 기재해서 사용 */
 
+/*
 #article-list > #article-list-row-3109331,
 #article-list > #article-list-row-3137467,
 #article-list > #article-list-row-3181863,
 #article-list > #article-list-row-3618934
-/* [a] */
-{ Animation: infinite AnimFeed 2s; }
 
+{ Animation: infinite AnimFeed 2s; }
+*/
+
+/*
 #article-list > #article-list-row-3245130 span.a-badge i.fa.fa-star,
 #article-list > #article-list-row-3365667 span.a-badge i.fa.fa-star {
     animation: infinite rainbowLink 1s;
 }
+*/
 
 @keyframes AnimFeed {
     0% { background-color: #ffffff; }
