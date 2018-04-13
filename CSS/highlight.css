@@ -24,6 +24,13 @@
 }
 */
 
+/* 3706633 */
+
+#article-list-row-3706633:hover{
+	background-image:url(https://ingether.github.io/TGD-CSS/Images/bar_01.png)!important;
+	background-position: 50% 50%!important;
+}
+
 @keyframes AnimFeed {
     0% { background-color: #ffffff; }
     40% { background-color: #d4eeff; }
