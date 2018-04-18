@@ -64,7 +64,10 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
     background-repeat: no-repeat; 
     display: block; 
     height: 18px;
+    /* 광어
     background-image: url("https://ingether.github.io/TGD-CSS/Images/Badge.png");
+    */
+    background-image: url("https://ingether.github.io/TGD-CSS/Images/wiki.png");
     background-position: 12px -2px;
 }
 
