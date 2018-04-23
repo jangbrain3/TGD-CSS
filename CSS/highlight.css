@@ -24,17 +24,23 @@
 }
 */
 
-/* 3706633 */
-
 /* 
-걸려서 뺌
+만능짤 걸려서 뺌
 #article-list-row-3706633:hover{
 	background-image:url(https://ingether.github.io/TGD-CSS/Images/bar_01.png)!important;
 	background-position: 50% 50%!important;
 }
 */
 
-/* 3942904 */
+
+span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0); 
+    vertical-align: 0px !important;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background:url(https://ingether.github.io/TGD-CSS/Emotes/Badge_0_Start/01_18.png) }
+
 #article-list > #article-list-row-3942904 > .item > .list-title > .list-writer.logged > span {
     animation: infinite ingether 1s;
 }
@@ -50,6 +56,9 @@
     40% { background-color: #d4eeff; }
     100% { background-color: #ffffff; }
 }
+
+
+
 /*
 #content-area, 
 body, 
