@@ -34,12 +34,13 @@
 
 
 span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0); 
-    vertical-align: 0px !important;
-    width: 18px;
-    height: 18px;
+    vertical-align: 2px !important;
+    width: 15px;
+    height: 15px;
     background-repeat: no-repeat;
-    background-size: 18px 18px;
-    background:url(https://ingether.github.io/TGD-CSS/Emotes/Badge_0_Start/01_18.png) }
+    background-size: 15px 15px;
+    background:url(https://ingether.github.io/TGD-CSS/Images/dol15.png);
+    animation: infinite rot360 1.2s;}
 
 #article-list > #article-list-row-3942904 > .item > .list-title > .list-writer.logged > span {
     animation: infinite ingether 1s;
@@ -57,7 +58,7 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     100% { background-color: #ffffff; }
 }
 
-
+@keyframes rot360 { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
 
 /*
 #content-area, 
