@@ -34,8 +34,45 @@
 }
 */
 
+/* 3942904 */
+#article-list > #article-list-row-3942904 > .item > .list-title > .list-writer.logged > span {
+    animation: infinite ingether 1s;
+}
+
+@keyframes ingether {
+    0% { color: #6441a5; }
+    40% { color: #0099ff; }
+    100% { color: #6441a5; }
+}
+
 @keyframes AnimFeed {
     0% { background-color: #ffffff; }
     40% { background-color: #d4eeff; }
     100% { background-color: #ffffff; }
 }
+/*
+#content-area, 
+body, 
+footer	
+{ background: #d4eeff !important; }
+
+#main .menu-wrapper>.header, 
+#main .menu-wrapper>.header>a		
+{	color: #eee !important; }
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover
+{	
+    border-color: #ddd !important; 
+    color: #ddd !important; 
+    background-color: #1f6fe6 !important;
+}
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover
+{	
+    background-color: #1f6fe6 !important;
+    border-color: #1f6fe6 !important; 
+}
+*/
