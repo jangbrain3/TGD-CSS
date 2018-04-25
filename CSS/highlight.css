@@ -25,14 +25,14 @@
 */
 
 /* 
-만능짤 걸려서 뺌
+** 만능짤 걸려서 뺌
 #article-list-row-3706633:hover{
 	background-image:url(https://ingether.github.io/TGD-CSS/Images/bar_01.png)!important;
 	background-position: 50% 50%!important;
 }
 */
 
-
+/* 인기게시글 별 투명도 0, 백그라운드 이미지 호출, 트랜스폼 애님 */
 span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0); 
     vertical-align: 2px !important;
     width: 15px;
@@ -40,11 +40,20 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background:url(https://ingether.github.io/TGD-CSS/Images/dol15.png);
-    animation: infinite rot360 1.2s;}
+    animation: infinite rot360 1.2s;
+}
 
+/* 잉게더 특정 글쓴이 이름 컬러 애님*/
 #article-list > #article-list-row-3942904 > .item > .list-title > .list-writer.logged > span {
     animation: infinite ingether 1s;
 }
+
+/*
+** 글쓴이 닉네임 컬러
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
+    color : #004e83;
+}
+*/
 
 @keyframes ingether {
     0% { color: #6441a5; }

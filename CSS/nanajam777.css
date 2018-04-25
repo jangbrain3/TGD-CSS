@@ -47,7 +47,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 
 #board-info #viewers-area #viewers:before { content: "우애나 "; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 기웃기웃"; cursor : text; }
-#board-info #viewers-area .fa-user:before { color: rgba(10,59,84,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); }
+#board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); }
 
 .btn-primary { background: #0099ff; border-color: #ffffff; }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
@@ -67,8 +67,9 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
     /* 광어
     background-image: url("https://ingether.github.io/TGD-CSS/Images/Badge.png");
     */
-    background-image: url("https://ingether.github.io/TGD-CSS/Images/wiki.png");
-    background-position: 18px 0px;
+    background-image: url("https://i.imgur.com/e9QmfJp.png");
+    background-size: 18px 18px;
+    background-position: 14px 0px;
 }
 
 /* 방장님 */
