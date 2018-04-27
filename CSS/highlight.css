@@ -8,29 +8,7 @@
 /* 피드 게시글 목록 */
 /* [a]에 ,#article-lists > #article-list-row-[트게더글번호] 추가 기재해서 사용 */
 
-/*
-#article-list > #article-list-row-3109331,
-#article-list > #article-list-row-3137467,
-#article-list > #article-list-row-3181863,
-#article-list > #article-list-row-3618934
 
-{ Animation: infinite AnimFeed 2s; }
-*/
-
-/*
-#article-list > #article-list-row-3245130 span.a-badge i.fa.fa-star,
-#article-list > #article-list-row-3365667 span.a-badge i.fa.fa-star {
-    animation: infinite rainbowLink 1s;
-}
-*/
-
-/* 
-** 만능짤 걸려서 뺌
-#article-list-row-3706633:hover{
-	background-image:url(https://ingether.github.io/TGD-CSS/Images/bar_01.png)!important;
-	background-position: 50% 50%!important;
-}
-*/
 
 /* 인기게시글 별 투명도 0, 백그라운드 이미지 호출, 트랜스폼 애님 */
 span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0); 
@@ -54,6 +32,16 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     color : #004e83;
 }
 */
+
+#article-list > #article-list-row-4056100 > .item > .list-title > .list-writer > span img { opacity: 0; }
+#article-list > #article-list-row-4056100 > .item > .list-title > .list-writer.logged { 
+    background-repeat: no-repeat; 
+    display: block; 
+    height: 18px;
+    background-image: url("https://ingether.github.io/TGD-CSS/Images/Ing18.png");
+    background-size: 18px 18px;
+    background-position: 24px 0px;
+}
 
 @keyframes ingether {
     0% { color: #6441a5; }
