@@ -48,19 +48,8 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 
 /* 현재 접속 인원 수 */
 #board-info #viewers-area #viewers:before { content: "우애나 "; cursor: text; }
-
-#board-info #viewers-area #viewers:after { content:"명 기웃기웃 해써써~"; cursor : text; }
-
-#board-info #viewers-area #viewers:after {
-    animation: infinite hatsoso 4s;
-}
+#board-info #viewers-area #viewers:after { content:"명 기웃기웃"; cursor : text; }
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); }
-
-/*
-#article-list > .article-list-row > .item > .list-title > a:after {
-    content: "했써써"
-}
-*/
 
 /* 글쓰기 버튼 오버레이시 무지개 키프레임 애니메이션 */
 .btn-primary { background: #0099ff; border-color: #ffffff; }
@@ -87,17 +76,6 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
     background-position: 24px 0px;
 }
 
-@keyframes hatsoso {
-    0% {content: "명 기웃기웃 ";}
-    5% {content: "명 기웃기웃 ㅎ";}
-    10% {content: "명 기웃기웃 해";}
-    15% {content: "명 기웃기웃 해ㅆ";}
-    20% {content: "명 기웃기웃 해써";}
-    25% {content: "명 기웃기웃 해써ㅆ";}
-    30% {content: "명 기웃기웃 해써써~";}
-    60% {content: "명 기웃기웃 해써써~";}
-    100% {content: "명 기웃기웃 ";}
-}
 
 /* 애니메이션 키프레임들 */
 @keyframes rainbowLink {

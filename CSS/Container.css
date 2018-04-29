@@ -80,3 +80,24 @@
     100% { width: 83px; }
 }
 */
+
+
+/*
+#article-list > .article-list-row > .item > .list-title > a:after {
+    content: "했써써"
+}
+*/
+#board-info #viewers-area #viewers:after {
+    animation: infinite hatsoso 4s;
+}
+@keyframes hatsoso {
+    0% {content: "명 기웃기웃 ";}
+    5% {content: "명 기웃기웃 ㅎ";}
+    10% {content: "명 기웃기웃 해";}
+    15% {content: "명 기웃기웃 해ㅆ";}
+    20% {content: "명 기웃기웃 해써";}
+    25% {content: "명 기웃기웃 해써ㅆ";}
+    30% {content: "명 기웃기웃 해써써~";}
+    60% {content: "명 기웃기웃 해써써~";}
+    100% {content: "명 기웃기웃 ";}
+}
