@@ -52,7 +52,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 #board-info #viewers-area #viewers:after { content:"명 기웃기웃 해써써~"; cursor : text; }
 
 #board-info #viewers-area #viewers:after {
-    animation: infinite hatsoso 2s;
+    animation: infinite hatsoso 4s;
 }
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); }
 
@@ -89,10 +89,13 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 
 @keyframes hatsoso {
     0% {content: "명 기웃기웃 ";}
-    20% {content: "명 기웃기웃 해";}
-    40% {content: "명 기웃기웃 해써";}
-    60% {content: "명 기웃기웃 해써써";}
-    80% {content: "명 기웃기웃 해써써~";}
+    5% {content: "명 기웃기웃 ㅎ";}
+    10% {content: "명 기웃기웃 해";}
+    15% {content: "명 기웃기웃 해ㅆ";}
+    20% {content: "명 기웃기웃 해써";}
+    25% {content: "명 기웃기웃 해써ㅆ";}
+    30% {content: "명 기웃기웃 해써써~";}
+    60% {content: "명 기웃기웃 해써써~";}
     100% {content: "명 기웃기웃 ";}
 }
 
