@@ -1,7 +1,6 @@
 @import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
     
 /*
-** Support : Discord J4#3534
 ** Github : http://github.com/Ingether/TGD-CSS/
 ** Copyright(c)2018 All rights reserved by nanajam777
 **
@@ -9,13 +8,19 @@
 ** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
 ** Ozic Woojeonging
 **
+** 잉게더는 트게더의 CSS 운영정책을 존중합니다.
+** 혹여나, 위반되는 항목이 있는 경우 nanajam777 님께 알리시거나 디스코드 제이뽀#3534로 PM부탁드립니다.
+**
 ** 사용하지 않는 코드는 아래 주소에 있습니다.
 ** http://ingether.gitbuc.io/TGD-CSS/CSS/Container.css
 */
 
+/* #region LOGO */
 header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 158px; height: 50px; background-image: url(https://ingether.github.io/TGD-CSS/Images/Logo-hb.png); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
+/* #endregion */
 
+/* #region DefaultColor */
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
 header #right-search-form > #right-search-btn { color: #0099ff; background: transparent; border: none; font-size: 1.4em; }
 header #right-search-form > input[type=text] { position: relative; border: 3px solid #0099ff; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
@@ -26,8 +31,8 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 #main .menu-wrapper > .header { background: #0099ff; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em { color: #99ccff;}
 
-
 .pagination > li > a:hover { animation: infinite AquaLinkBG 1.5s; }
+
 .pagination > .active > a, 
 .pagination > .active > a:focus, 
 .pagination > .active > a:hover, 
@@ -45,42 +50,23 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 
 #article-reply-area #reply-real-area .reply > .reply-header { background: #d4eeff; }
 #article-reply-area > .header h5 { font-size: 14px; color: #0099ff; font-weight: bold; }
+/* #endregion */
 
-/* 현재 접속 인원 수 */
+
+/* #region Viewers */
 #board-info #viewers-area #viewers:before { content: "잉게더 망령 "; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 행복행복"; cursor : text; }
-
 /*
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); }
 */ 
+/* #endregion */
 
-/* 글쓰기 버튼 오버레이시 무지개 키프레임 애니메이션 */
+/* #region ButtonAnim */
 .btn-primary { background: #0099ff; border-color: #ffffff; }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
+/* #endregion */
 
-/* 우정위키 로고 */
-#article-list > #article-list-row-2670749 > .item > .list-title > .list-writer > span img { opacity: 0; }
-#article-list > #article-list-row-2670749 > .item > .list-title > .list-writer.logged { 
-    background-repeat: no-repeat; 
-    display: block; 
-    height: 18px;
-    background-image: url("https://ingether.github.io/TGD-CSS/Images/wiki18.png");
-    background-size: 18px 18px;
-    background-position: 14px 0px;
-}
-/* 잉게더 로고 */
-#article-list > #article-list-row-4056100 > .item > .list-title > .list-writer > span img { opacity: 0; }
-#article-list > #article-list-row-4056100 > .item > .list-title > .list-writer.logged { 
-    background-repeat: no-repeat; 
-    display: block; 
-    height: 18px;
-    background-image: url("https://ingether.github.io/TGD-CSS/Images/Ing18.png");
-    background-size: 18px 18px;
-    background-position: 24px 0px;
-}
-
-
-/* 애니메이션 키프레임들 */
+/* #region Keyframes */
 @keyframes rainbowLink {
     0% { color: #ff2a2a; }
     15% { color: #ff7a2a; }
