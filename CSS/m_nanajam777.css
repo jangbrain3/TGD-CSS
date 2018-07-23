@@ -14,7 +14,7 @@
 span.a-badge i.fa.fa-info-circle { color: red !important; }
 
 header { border-bottom-color: #0099ff !important; background: #d4eeff !important; }
-header > #header-area > a > h1 { background: url(https://ingether.github.io/TGD-CSS/Images/logo.png) no-repeat; background-size: 90px 32px; }
+header > #header-area > a > h1 { background: url(https://ingether.github.io/TGD-CSS/Images/Logo-hb.png) no-repeat; background-size: 90px 32px; }
 header > #header-area > #header-bar-link { color: #0099ff; }
 
 #header-top-notice a { font-weight: bold; color: #0099ff !important; }
