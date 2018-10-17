@@ -1,5 +1,4 @@
 /*
-** Support : Discord J4#3534
 ** Copyright(c)2018 All rights reserved by nanajam777
 ** This script is designed for highlighting specific articles.
 ** Ozic Woojeonging
@@ -22,9 +21,11 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 }
 
 /* 잉게더 특정 글쓴이 이름 컬러 애님*/
+/*
 #article-list > #article-list-row-7194819 > .item > .list-title > .list-writer.logged > span {
     animation: infinite ingether 1s;
 }
+*/
 
 /*
 ** 글쓴이 닉네임 컬러
