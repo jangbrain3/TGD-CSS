@@ -34,19 +34,7 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 }
 */
 
-/* 우정위키 로고 */
-
-#article-list > #article-list-row-12061045 > .item > .list-title > .list-writer > span img,
-#article-list > #article-list-row-2670749 > .item > .list-title > .list-writer > span img { opacity: 0; }
-#article-list > #article-list-row-12061045 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-2670749 > .item > .list-title > .list-writer.logged { 
-    background-repeat: no-repeat; 
-    display: block; 
-    height: 18px;
-    background-image: url("https://ingether.github.io/TGD-CSS/Images/wiki18.png");
-    background-size: 18px 18px;
-    background-position: 14px 0px;
-}
+/* 우정위키 백그라운드 컬러 */
 #article-list > #article-list-row-12061045 {
     background-color: #e0f8d7;
 }
