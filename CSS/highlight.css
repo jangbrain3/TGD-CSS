@@ -47,7 +47,9 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     background-size: 18px 18px;
     background-position: 14px 0px;
 }
-
+#article-list > #article-list-row-12061045 {
+    background-color: #e0f8d7;
+}
 
 
 @keyframes ingether {
