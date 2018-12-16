@@ -1,32 +1,34 @@
 @import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
-    
+
 /*
 ** Github : http://github.com/Ingether/TGD-CSS/
-** Copyright(c)2018 All rights reserved by nanajam777
+** Copyright(c) 2017-2018 All rights reserved by nanajam777
 **
-** This script is designed for PC Web Platform.
+** This script is designed for PC.
 ** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
-** Ozic Woojeonging
 **
 ** 잉게더는 트게더의 CSS 운영정책을 존중합니다.
-** 혹여나, 위반되는 항목이 있는 경우 nanajam777 님께 알리시거나 트게더에 알려주세요.
-**
-** 사용하지 않는 코드는 아래 주소에 있습니다.
-** http://ingether.gitbuc.io/TGD-CSS/CSS/Container.css
+** 위반되는 항목이 있는 경우 nanajam777님 또는 트게더에 게시글로 알려주세요.
 */
 
-/* #region LOGO */
+/* logo */
 header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 158px; height: 50px; background-image: url(https://ingether.github.io/TGD-CSS/Images/Logo-hb.png); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
-/* #endregion */
 
-/* #region DefaultColor */
+/* DefaultColor */
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
 header #right-search-form > #right-search-btn { color: #0099ff; background: transparent; border: none; font-size: 1.4em; }
 header #right-search-form > input[type=text] { position: relative; border: 3px solid #0099ff; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
 
-header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #0099ff; background: #d4eeff; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 }
+/* header-bar */
+/* header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #0099ff; background: #d4eeff; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 } */
+header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #7abcff; background:  -webkit-linear-gradient(45deg, #70b7ff 0%,#96c7f7 11%,#cbdced 100%); border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 }
+
+/*advertisement tag */
 header #header-bar #header-top-notice strong.notice-badge { background: #0099ff; padding: 4px 8px; color: #fff; font-weight: bold }
+
+/* hot post background */
+#article-list > .article-list-row.hot { background:-webkit-linear-gradient(135deg, #70b7ff 0%,#96c7f7 11%,#cbdced 100%); }
 
 #main .menu-wrapper > .header { background: #0099ff; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em { color: #99ccff;}
@@ -41,6 +43,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 .pagination > .active > span:hover 
 { background-color: #0099ff; border-color: #0099ff; }
 
+
 #article-content-wrapper > .header { border-top: 3px solid #0099ff; background: #d4eeff; }
 #article-content-wrapper > .footer { border-bottom: 3px solid #0099ff; background: #d4eeff; }
 #article-list > .article-list-row > .item > .list-header > span { background-color: #0099ff; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
@@ -50,24 +53,20 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 
 #article-reply-area #reply-real-area .reply > .reply-header { background: #d4eeff; }
 #article-reply-area > .header h5 { font-size: 14px; color: #0099ff; font-weight: bold; }
-/* #endregion */
 
 
-/* #region Viewers */
+/* viewers */
 #board-info #viewers-area #viewers:before { content: "잉게더 망령 "; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 행복행복"; cursor : text; }
-/*
-#board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); }
-*/ 
-/* #endregion */
 
-/* #region ButtonAnim */
+/* badge at viewer box */
+/* #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); } */
+
+/* ButtonAnim */
 .btn-primary { background: #0099ff; border-color: #ffffff; }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
-/* #endregion */
 
-/* 우정위키 로고 */
-
+/* wj Wiki logo */
 #article-list > #article-list-row-12061045 > .item > .list-title > .list-writer > span img,
 #article-list > #article-list-row-2670749 > .item > .list-title > .list-writer > span img { opacity: 0; }
 #article-list > #article-list-row-12061045 > .item > .list-title > .list-writer.logged,
@@ -80,8 +79,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
     background-position: 14px 0px;
 }
 
-
-/* #region Keyframes */
+/* keyframe animations */
 @keyframes rainbowLink {
     0% { color: #ff2a2a; }
     15% { color: #ff7a2a; }
@@ -92,7 +90,6 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
     90% { color: #6b2aff; }
     100% { color: #e82aff; }
 }
-
 @keyframes rainbowLinkBG {
     0% { background-color: #ff2a2a; }
     15% { background-color: #ff7a2a; }
@@ -103,9 +100,10 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
     90% { background-color: #6b2aff; }
     100% { background-color: #e82aff; }
 }
-
 @keyframes AquaLinkBG {
     0% { background-color: #d4eeff; }
     40% { background-color: #99ccff; }
     100% { background-color: #d4eeff; }
 }
+
+/* css는 어려워 */

@@ -1,15 +1,12 @@
 /*
-** Copyright(c)2018 All rights reserved by nanajam777
-** This script is designed for highlighting specific articles.
-** Ozic Woojeonging
+** Copyright(c) 2017-2018 All rights reserved by nanajam777
+** This script highlights several specific articles.
 */
 
 /* 피드 게시글 목록 */
 /* [a]에 ,#article-lists > #article-list-row-[트게더글번호] 추가 기재해서 사용 */
 
-
-
-/* 인기게시글 별 투명도 0, 백그라운드 이미지 호출, 트랜스폼 애님 */
+/* change popular posts' icon */
 span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0); 
     vertical-align: 2px !important;
     width: 15px;
@@ -19,6 +16,25 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     background:url(https://ingether.github.io/TGD-CSS/Images/dol15.png);
     animation: infinite rot360 1.2s;
 }
+
+/* keyframe animations */
+@keyframes ingether {
+    0% { color: #6441a5; }
+    40% { color: #0099ff; }
+    100% { color: #6441a5; }
+}
+@keyframes AnimFeed {
+    0% { background-color: #ffffff; }
+    40% { background-color: #d4eeff; }
+    100% { background-color: #ffffff; }
+}
+@keyframes rot360 { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
+
+
+/* 우정위키 백그라운드 컬러 */
+/* #article-list > #article-list-row-12061045 {
+    background-color: #e0f8d7;
+} */
 
 /* 잉게더 특정 글쓴이 이름 컬러 애님*/
 /*
@@ -36,10 +52,6 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 /* img src="https://static-cdn.jtvnw.net/badges/v1/1a93b37b-5ea1-4f65-83f7-a3d11687ea51/1" align="absmiddle"> {
  */
 /* } */
-/* 우정위키 백그라운드 컬러 */
-#article-list > #article-list-row-12061045 {
-    background-color: #e0f8d7;
-}
 
 /* 가짜 브로드캐스터 로고 숨기기 */
 /* img[src="https://static-cdn.jtvnw.net/badges/v1/1a93b37b-5ea1-4f65-83f7-a3d11687ea51/1"] {
@@ -66,19 +78,7 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     background-size: 18px 18px;
     background-position: 14px 0px;
 } */
-@keyframes ingether {
-    0% { color: #6441a5; }
-    40% { color: #0099ff; }
-    100% { color: #6441a5; }
-}
 
-@keyframes AnimFeed {
-    0% { background-color: #ffffff; }
-    40% { background-color: #d4eeff; }
-    100% { background-color: #ffffff; }
-}
-
-@keyframes rot360 { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
 
 /*
 #content-area, 
