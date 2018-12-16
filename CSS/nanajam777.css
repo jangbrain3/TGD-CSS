@@ -46,6 +46,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 /* tgd menu box */
 #main .menu-wrapper > .header { background: #0099ff; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 10px 10px 0 0;}
 #main .menu-wrapper > a > em { color: #99ccff;}
+#main .menu-wrapper > a > i.fa.fa-square { color:#99ccff; }
 
 /* remove nav box border */
 header #header-bar > .row,
