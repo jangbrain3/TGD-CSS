@@ -18,7 +18,7 @@ span.a-badge i.fa.fa-star {
     animation: infinite rot360 1.2s;
 }
 /* go live stream */
-#board-info h1 > a.badge.badge-live::after { font-size: 12px; content: " 생방 보기"; }
+#board-info h1 > a.badge.badge-live::after { font-size: 12px; content: "보러가기"; }
 
 /* keyframe animations */
 @keyframes ingether {
