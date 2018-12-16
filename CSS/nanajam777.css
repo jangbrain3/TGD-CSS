@@ -60,6 +60,9 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 #board-info #viewers-area #viewers:before { content: "잉게더 망령 "; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 행복행복"; cursor : text; }
 
+/* profile border */
+#board-info #board-info-profile-img { border: 2px solid #0099ff; border-radius: 30%; width: 50px; height: 50px; }
+
 /* badge at viewer box */
 /* #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); } */
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/2y_18.png"); }
