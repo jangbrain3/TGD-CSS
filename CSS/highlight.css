@@ -3,11 +3,12 @@
 ** This script highlights several specific articles.
 */
 
-/* 피드 게시글 목록 */
+/* posts */
 /* [a]에 ,#article-lists > #article-list-row-[트게더글번호] 추가 기재해서 사용 */
 
 /* change popular posts' icon */
-span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0); 
+span.a-badge i.fa.fa-star { 
+    opacity: 100; color:rgba(95,02,22,0); 
     vertical-align: 2px !important;
     width: 15px;
     height: 15px;
@@ -16,6 +17,8 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     background:url(https://ingether.github.io/TGD-CSS/Images/dol15.png);
     animation: infinite rot360 1.2s;
 }
+/* go live stream */
+#board-info h1 > a.badge.badge-live::after { font-size: 12px; content: " 생방 보기"; }
 
 /* keyframe animations */
 @keyframes ingether {
@@ -30,79 +33,3 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 }
 @keyframes rot360 { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
 
-
-/* 우정위키 백그라운드 컬러 */
-/* #article-list > #article-list-row-12061045 {
-    background-color: #e0f8d7;
-} */
-
-/* 잉게더 특정 글쓴이 이름 컬러 애님*/
-/*
-#article-list > #article-list-row-7194819 > .item > .list-title > .list-writer.logged > span {
-    animation: infinite ingether 1s;
-}
-*/
-
-/*
-** 글쓴이 닉네임 컬러
-#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
-    color : #004e83;
-}
-*/
-/* img src="https://static-cdn.jtvnw.net/badges/v1/1a93b37b-5ea1-4f65-83f7-a3d11687ea51/1" align="absmiddle"> {
- */
-/* } */
-
-/* 가짜 브로드캐스터 로고 숨기기 */
-/* img[src="https://static-cdn.jtvnw.net/badges/v1/1a93b37b-5ea1-4f65-83f7-a3d11687ea51/1"] {
-    opacity: 0;
-} */
-
-/* img[src="https://static-cdn.jtvnw.net/badges/v1/1a93b37b-5ea1-4f65-83f7-a3d11687ea51/1"]:nth-last-child(2)
-{
-    background-repeat: no-repeat; 
-    display: block; 
-    height: 18px;
-    background-size: 18px 18px;
-    background-position: 14px 0px;
-    background-image: url("https://ingether.github.io/TGD-CSS/Images/3-18.png");
-} */
-/* #article-list > #article-list-row-12061045 > .item > .list-title > .list-writer > span img,
-#article-list > #article-list-row-2670749 > .item > .list-title > .list-writer > span img { opacity: 0; }
-#article-list > #article-list-row-12061045 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-2670749 > .item > .list-title > .list-writer.logged { 
-    background-repeat: no-repeat; 
-    display: block; 
-    height: 18px;
-    background-image: url("https://ingether.github.io/TGD-CSS/Images/wiki18.png");
-    background-size: 18px 18px;
-    background-position: 14px 0px;
-} */
-
-
-/*
-#content-area, 
-body, 
-footer	
-{ background: #d4eeff !important; }
-
-#main .menu-wrapper>.header, 
-#main .menu-wrapper>.header>a		
-{	color: #eee !important; }
-
-.pagination>.active>a,
-.pagination>.active>a:focus,
-.pagination>.active>a:hover
-{	
-    border-color: #ddd !important; 
-    color: #ddd !important; 
-    background-color: #1f6fe6 !important;
-}
-.pagination>.active>span,
-.pagination>.active>span:focus,
-.pagination>.active>span:hover
-{	
-    background-color: #1f6fe6 !important;
-    border-color: #1f6fe6 !important; 
-}
-*/
