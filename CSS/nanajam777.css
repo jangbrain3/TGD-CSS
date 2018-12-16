@@ -62,6 +62,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 
 /* badge at viewer box */
 /* #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); } */
+#board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/2y_18.png"); }
 
 /* ButtonAnim */
 .btn-primary { background: #0099ff; border-color: #ffffff; }
