@@ -11,20 +11,16 @@
 ** 위반되는 항목이 있는 경우 nanajam777님 또는 트게더에 게시글로 알려주세요.
 */
 
-/* @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-html { height: auto !important; font-family: 'Nanum Gothic', sans-serif; 
-    background: linear-gradient(to bottom, #FFFFFF, #70b7ff);
-}
-body { 
-    letter-spacing: -0.06em !important; 
-    background: transparent; font-family: 'Nanum Gothic', sans-serif; 
-} */
+/* @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); */
 
 html {
     height:auto !important; 
-    background: linear-gradient(to bottom, #ffffff, #70b7ff);
+    /* font-family: 'Nanum Gothic', sans-serif;  */
+    background: linear-gradient(to bottom, #ffffff, #d0e6fc, #70b7ff);
 }
 body {
+    /* letter-spacing: -0.06em !important; 
+    font-family: 'Nanum Gothic', sans-serif;  */
     background: transparent;
 }
 
