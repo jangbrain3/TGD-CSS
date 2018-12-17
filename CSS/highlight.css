@@ -17,8 +17,6 @@ span.a-badge i.fa.fa-star {
     background:url(https://ingether.github.io/TGD-CSS/Images/dol15.png);
     animation: infinite rot360 1.2s;
 }
-/* go live stream */
-#board-info h1 > a.badge.badge-live::after { font-size: 12px; content: " 생방 보기"; }
 
 /* keyframe animations */
 @keyframes ingether {
