@@ -54,7 +54,7 @@ header #header-bar > .row,
 #main #main-content > div.frame { border-right: none; border-bottom: none; border-radius: 10px 10px 0 0; }
 
 /* nav box category distribute */
-#main .menu-wrapper .spacer { background: #0099ff;height: 1px; }
+#main .menu-wrapper .spacer { background: rgba(95,02,22,0); height: 4px; }
   
 /* shadow */
 header #header-bar > .row { box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); border-radius: 0 0 15px 15px; }
