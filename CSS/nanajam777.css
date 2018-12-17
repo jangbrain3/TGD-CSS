@@ -53,15 +53,21 @@ header #header-bar > .row,
 #main .menu-wrapper,
 #main #main-content > div.frame { border-right: none; border-bottom: none; border-radius: 10px 10px 0 0; }
 
+
 /* nav box category distribute */
 #main .menu-wrapper .spacer { background: rgba(95,02,22,0); height: 4px; }
-  
+
 /* shadow */
 header #header-bar > .row { box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); border-radius: 0 0 15px 15px; }
-#main #main-content > div.frame { box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); border-radius: 0 0 15px 15px; }
+#main #main-content > div.frame { 
+    box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); border-radius: 0 0 15px 15px; 
+    background: -webkit-linear-gradient(135deg, #ffffff 0%,#ffffff 99%, #96c7f7 99%,#70b7ff 100%);
+}
 
+/* notice post mouse hovered */
+#article-list > .article-list-row.notice:hover { animation: 30s anim_hovered_background; }
+    
 .pagination > li > a:hover { animation: infinite AquaLinkBG 1.5s; }
-
 .pagination > .active > a, 
 .pagination > .active > a:focus, 
 .pagination > .active > a:hover, 
@@ -142,5 +148,8 @@ header #header-bar > .row { box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); borde
     40% { background-color: #99ccff; }
     100% { background-color: #d4eeff; }
 }
-
+@keyframes anim_hovered_background {
+    0% { background-color: #f3f3f3; }
+    1% { background-color: #d4eeff; }
+    }
 /* css는 어려워 */

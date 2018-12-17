@@ -233,3 +233,23 @@ footer
     border-color: #1f6fe6 !important; 
 }
 */
+
+
+/* stop after keyframe animation  */
+/* #main #main-content > div.frame {
+    -webkit-animation-name : animation_play1;
+    -webkit-animation-duration : 2s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:.3s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode:both
+}
+@-webkit-keyframes animation_play1 {
+    
+    0% {
+        -webkit-transform : translateX(0px) translateY(0px) scale(2.5);
+    }
+    100% {
+        -webkit-transform : translateX(100px) translateY(100px) scale(1);
+    }
+} */
