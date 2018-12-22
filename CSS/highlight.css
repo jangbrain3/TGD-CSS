@@ -18,6 +18,11 @@ span.a-badge i.fa.fa-star {
     animation: infinite rot360 1.2s;
 }
 
+/* hot post background */
+#article-list > .article-list-row.hot { 
+    background:-webkit-linear-gradient(135deg, #93c9ff 0%,#badcff 11%,#f5faff 40%,#f5faff 90%,#badcff 95%,#93c9ff 100%); 
+}
+
 /* keyframe animations */
 @keyframes ingether {
     0% { color: #6441a5; }

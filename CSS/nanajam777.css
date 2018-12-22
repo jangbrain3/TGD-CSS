@@ -45,9 +45,6 @@ header #header-bar > .row {
 /*advertisement tag */
 header #header-bar #header-top-notice strong.notice-badge { background: #0099ff; padding: 4px 8px; color: #fff; font-weight: bold }
 
-/* hot post background */
-#article-list > .article-list-row.hot { background:-webkit-linear-gradient(135deg, #93c9ff 0%,#badcff 11%,#f5faff 40%,#f5faff 90%,#badcff 95%,#93c9ff 100%); }
-
 /* tgd menu box */
 #main .menu-wrapper > .header { 
     background: -webkit-linear-gradient(45deg, #70b7ff 10%,#96c7f7 100%); 
@@ -59,7 +56,6 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 header #header-bar > .row,
 #main .menu-wrapper,
 #main #main-content > div.frame { border-right: none; border-bottom: none; border-radius: 10px 10px 0 0; }
-
 
 /* nav box category distribute */
 #main .menu-wrapper .spacer { background: rgba(95,02,22,0); height: 4px; }
