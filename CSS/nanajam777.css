@@ -37,7 +37,10 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 /* header-bar */
 /* header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #0099ff; background: #d4eeff; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 } */
-header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #96c7f7; background: -webkit-linear-gradient(45deg, #70b7ff 0%,#96c7f7 11%,#cbdced 100%); border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 } 
+header #header-bar > .row { 
+    padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #96c7f7; 
+    background: -webkit-linear-gradient(45deg, #70b7ff 0%,#96c7f7 11%,#cbdced 100%); 
+    border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 } 
 
 /*advertisement tag */
 header #header-bar #header-top-notice strong.notice-badge { background: #0099ff; padding: 4px 8px; color: #fff; font-weight: bold }
@@ -46,7 +49,9 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 #article-list > .article-list-row.hot { background:-webkit-linear-gradient(135deg, #93c9ff 0%,#badcff 11%,#f5faff 40%,#f5faff 90%,#badcff 95%,#93c9ff 100%); }
 
 /* tgd menu box */
-#main .menu-wrapper > .header { background: #0099ff; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 10px 10px 0 0;}
+#main .menu-wrapper > .header { 
+    background: -webkit-linear-gradient(45deg, #70b7ff 10%,#96c7f7 100%); 
+    color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 10px 10px 0 0;}
 #main .menu-wrapper > a > em { color: #99ccff;}
 #main .menu-wrapper > a > i.fa.fa-square { color:#99ccff; }
 
@@ -59,7 +64,7 @@ header #header-bar > .row,
 /* nav box category distribute */
 #main .menu-wrapper .spacer { background: rgba(95,02,22,0); height: 4px; }
 
-/* shadow */
+/* main shadow */
 header #header-bar > .row { box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); border-radius: 0 0 15px 15px; }
 #main #main-content > div.frame { 
     box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); border-radius: 0 0 15px 15px; 
