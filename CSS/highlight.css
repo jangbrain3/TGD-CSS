@@ -36,3 +36,7 @@ span.a-badge i.fa.fa-star {
 }
 @keyframes rot360 { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
 
+/* temp section */
+#article-list > #article-list-row-15402549 {
+    background:-webkit-linear-gradient(135deg, #ff93bc 0%,#ffbaff 11%,#fef5ff 40%,#fef5ff 90%,#ffbaff 95%,#ff93bc 100%); 
+}
