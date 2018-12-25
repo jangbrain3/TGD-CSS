@@ -1,10 +1,8 @@
 /*
+** Github : http://github.com/Ingether/TGD-CSS/
 ** Copyright(c) 2017-2018 All rights reserved by nanajam777
 ** This script highlights several specific articles.
 */
-
-/* posts */
-/* [a]에 ,#article-lists > #article-list-row-[트게더글번호] 추가 기재해서 사용 */
 
 /* change popular posts' icon */
 span.a-badge i.fa.fa-star { 
@@ -37,6 +35,6 @@ span.a-badge i.fa.fa-star {
 @keyframes rot360 { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
 
 /* temp section */
-#article-list > #article-list-row-15402549 {
+/* #article-list > #article-list-row-15402549 {
     background:-webkit-linear-gradient(135deg, #ff93bc 0%,#ffbaff 11%,#fef5ff 40%,#fef5ff 90%,#ffbaff 95%,#ff93bc 100%); 
-}
+} */

@@ -2,7 +2,7 @@
 
 /* 
 ** Github : http://github.com/Ingether/TGD-CSS/
-** Copyright(c)2018 All rights reserved by nanajam777
+** Copyright(c) 2017-2019 All rights reserved by nanajam777
 **
 ** This script is designed for mobile devices. 
 ** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
@@ -19,7 +19,7 @@ header {
     background: #d4eeff !important; 
 }
 header > #header-area > a > h1 { 
-    background: url(https://ingether.github.io/TGD-CSS/Logo/CI_xmas_m.png) no-repeat; 
+    background: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png) no-repeat; 
     background-size: 90px 32px; 
 }
 header > #header-area > #header-bar-link { 
