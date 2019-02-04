@@ -1,4 +1,4 @@
-@import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
+﻿@import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
 
 /* 
 ** Github : http://github.com/Ingether/TGD-CSS/
@@ -19,7 +19,7 @@ header {
     background: #d4eeff !important; 
 }
 header > #header-area > a > h1 { 
-    background: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png) no-repeat; 
+    background: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness_Original.png) no-repeat; 
     background-size: 90px 32px; 
 }
 header > #header-area > #header-bar-link { 
