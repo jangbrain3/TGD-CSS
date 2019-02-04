@@ -19,8 +19,8 @@ header {
     background: #d4eeff !important; 
 }
 header > #header-area > a > h1 { 
-    background: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png) no-repeat; 
-    background-size: 128px 32px; /*90px 32px; */
+    background: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness_m.png) no-repeat; 
+    background-size: 85px 32px; /*90px 32px; */
 }
 header > #header-area > #header-bar-link { 
     color: #0099ff; 
