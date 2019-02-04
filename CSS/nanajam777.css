@@ -23,7 +23,7 @@ body {
 
 /* logo */
 header .row > div:nth-child(1) > a { 
-    background-repeat: no-repeat; display: block; width: 200px; height: 50px; 
+    background-repeat: no-repeat; display: block; width: 200px; height: 50px; /*width: 158px*/
     background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
