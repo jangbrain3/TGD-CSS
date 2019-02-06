@@ -19,8 +19,13 @@ header {
     background: #d4eeff !important;
 }
 header > #header-area > a > h1 { 
+<<<<<<< HEAD
     background: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png) no-repeat;
     background-size: 90px 32px;
+>>>>>>> parent of 14dfde6... End of Xmas
+=======
+    background: url(https://ingether.github.io/TGD-CSS/Logo/CI_xmas_m.png) no-repeat; 
+    background-size: 90px 32px; 
 >>>>>>> parent of 14dfde6... End of Xmas
 }
 header > #header-area > #header-bar-link {
