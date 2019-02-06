@@ -2,7 +2,7 @@
 
 /*
 ** Github : http://github.com/Ingether/TGD-CSS/
-** Copyright(c) 2017-2019 All rights reserved by nanajam777
+** Copyright(c) 2017-2018 All rights reserved by nanajam777
 **
 ** This script is designed for PC.
 ** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
@@ -15,16 +15,34 @@
 
 html {
     height:auto !important; 
-    background: linear-gradient(to bottom, #ffffff, #d0e6fc, #70b7ff);
+    /* font-family: 'Nanum Gothic', sans-serif;  */
+    /* background: linear-gradient(to bottom, #ffffff, #d0e6fc, #70b7ff); */
+    background:  -webkit-linear-gradient(270deg, #ffffff 0%,#d0e6fc 50%,#70b7ff 97%, #ffffff 98%);
 }
 body {
+    /* letter-spacing: -0.06em !important; 
+    font-family: 'Nanum Gothic', sans-serif;  */
     background: transparent;
+    background-image: 
+    url(https://ingether.github.io/TGD-CSS/snowflakes/sf3.png)
+    ,url(https://ingether.github.io/TGD-CSS/snowflakes/sf4.png)
+    /* ,url(https://ingether.github.io/TGD-CSS/snowflakes/sf5.png) */
+    ;
+
+    animation: animPosA 20s linear infinite;
+    -ms-animation: animPosA 20s linear infinite;
+    -moz-animation: animPosA 20s linear infinite;
+    -webkit-animation:animPosA 20s linear infinite;
 }
 
 /* logo */
+<<<<<<< HEAD
 header .row > div:nth-child(1) > a { 
     background-repeat: no-repeat; display: block; width: 200px; height: 50px; /*width: 158px*/
     background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png); }
+=======
+header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 158px; height: 50px; background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_xmas.png); }
+>>>>>>> parent of 14dfde6... End of Xmas
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
 /* DefaultColor */
@@ -141,7 +159,16 @@ header #header-bar > .row { box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); borde
     0% { background-color: #f3f3f3; }
     1% { background-color: #d4eeff; }
     }
+@keyframes animPosA{
+    0% {background-position: 300px 0,0 0;}
+    100% {background-position: 0 300px,400px 400px;}
+}
 
 /* 
-** Happy New Year!
+** 2018-12-24 ~ 25
+** 이게 올라갈 때 쯤이면... 
+** 저는 이미 클스마스 즐기러 가있겠네요! 
+** ㅎㅎ;; ㅈㅅ;;
+**
+** 예정 업로드 시각 - 11:05
 */

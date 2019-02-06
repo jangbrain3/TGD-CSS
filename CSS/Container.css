@@ -2,9 +2,9 @@
 
 /*
 ** Github : http://github.com/Ingether/TGD-CSS/
-** Copyright(c)2017-2019 All rights reserved by nanajam777
+** Copyright(c)2018 All rights reserved by nanajam777
 
-** This script is temporal container
+** This script is designed for PC Web Platform.
 ** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
 ** Ozic Woojeonging
 */
@@ -133,7 +133,7 @@
 }
 */
 
-    /* @-webkit-keyframes roll {
+    @-webkit-keyframes roll {
     from { -webkit-transform: rotate(0deg) }
     to   { -webkit-transform: rotate(360deg) }
     }
@@ -155,7 +155,7 @@
     -webkit-animation-name: roll;
     -webkit-animation-duration: 4s;
     -webkit-animation-iteration-count: 1;
-    } */
+    }
 
     
 /* 우정위키 백그라운드 컬러 */
@@ -255,7 +255,7 @@ footer
 } */
 
 /* wj wiki logo */
-/* #article-list > #article-list-row-12061045 > .item > .list-title > .list-writer > span img,
+#article-list > #article-list-row-12061045 > .item > .list-title > .list-writer > span img,
 #article-list > #article-list-row-2670749 > .item > .list-title > .list-writer > span img { opacity: 0; }
 #article-list > #article-list-row-12061045 > .item > .list-title > .list-writer.logged,
 #article-list > #article-list-row-2670749 > .item > .list-title > .list-writer.logged { 
@@ -265,33 +265,4 @@ footer
     background-image: url("https://ingether.github.io/TGD-CSS/Images/wiki18.png");
     background-size: 18px 18px;
     background-position: 14px 0px;
-} */
-
-/* christmas background */
-/* html {
-    height:auto !important; 
-    background:  -webkit-linear-gradient(270deg, #ffffff 0%,#d0e6fc 50%,#70b7ff 97%, #ffffff 98%);
 }
-body{
-    background-image: 
-    url(https://ingether.github.io/TGD-CSS/snowflakes/sf3.png)
-    ,url(https://ingether.github.io/TGD-CSS/snowflakes/sf4.png)
-    ;
-    animation: animPosA 20s linear infinite;
-    -ms-animation: animPosA 20s linear infinite;
-    -moz-animation: animPosA 20s linear infinite;
-    -webkit-animation:animPosA 20s linear infinite;
-}
-@keyframes animPosA{
-    0% {background-position: 300px 0,0 0;}
-    100% {background-position: 0 300px,400px 400px;}
-} */
-
-/* add font */
-/* html {
-    font-family: 'Nanum Gothic', sans-serif; 
-}
-body {
-    letter-spacing: -0.06em !important; 
-    font-family: 'Nanum Gothic', sans-serif; 
-} */
