@@ -1,4 +1,4 @@
-﻿@import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
+@import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
 
 /*
 ** Github : http://github.com/Ingether/TGD-CSS/
@@ -14,16 +14,16 @@
 /* @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); */
 
 html {
-    height:auto !important; 
+    height:auto !important;
     /* font-family: 'Nanum Gothic', sans-serif;  */
     /* background: linear-gradient(to bottom, #ffffff, #d0e6fc, #70b7ff); */
     background:  -webkit-linear-gradient(270deg, #ffffff 0%,#d0e6fc 50%,#70b7ff 97%, #ffffff 98%);
 }
 body {
-    /* letter-spacing: -0.06em !important; 
+    /* letter-spacing: -0.06em !important;
     font-family: 'Nanum Gothic', sans-serif;  */
     background: transparent;
-    background-image: 
+    background-image:
     url(https://ingether.github.io/TGD-CSS/snowflakes/sf3.png)
     ,url(https://ingether.github.io/TGD-CSS/snowflakes/sf4.png)
     /* ,url(https://ingether.github.io/TGD-CSS/snowflakes/sf5.png) */
@@ -36,13 +36,14 @@ body {
 }
 
 /* logo */
-<<<<<<< HEAD
-header .row > div:nth-child(1) > a { 
-    background-repeat: no-repeat; display: block; width: 200px; height: 50px; /*width: 158px*/
-    background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png); }
-=======
-header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 158px; height: 50px; background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_xmas.png); }
->>>>>>> parent of 14dfde6... End of Xmas
+
+
+header .row > div:nth-child(1) > a {
+  background-repeat: no-repeat;
+  display: block;
+  width: 158px; height: 50px;
+  background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png);
+}
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
 /* DefaultColor */
@@ -54,17 +55,17 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 /* header-bar */
 /* header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #0099ff; background: #d4eeff; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 } */
-header #header-bar > .row { 
-    padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #96c7f7; 
-    background: -webkit-linear-gradient(45deg, #70b7ff 0%,#96c7f7 11%,#cbdced 100%); 
-    border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 } 
+header #header-bar > .row {
+    padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #96c7f7;
+    background: -webkit-linear-gradient(45deg, #70b7ff 0%,#96c7f7 11%,#cbdced 100%);
+    border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 }
 
 /*advertisement tag */
 header #header-bar #header-top-notice strong.notice-badge { background: #0099ff; padding: 4px 8px; color: #fff; font-weight: bold }
 
 /* tgd menu box */
-#main .menu-wrapper > .header { 
-    background: -webkit-linear-gradient(45deg, #70b7ff 10%,#96c7f7 100%); 
+#main .menu-wrapper > .header {
+    background: -webkit-linear-gradient(45deg, #70b7ff 10%,#96c7f7 100%);
     color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 10px 10px 0 0;}
 #main .menu-wrapper > a > em { color: #99ccff;}
 #main .menu-wrapper > a > i.fa.fa-square { color:#99ccff; }
@@ -79,21 +80,21 @@ header #header-bar > .row,
 
 /* main shadow */
 header #header-bar > .row { box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); border-radius: 0 0 15px 15px; }
-#main #main-content > div.frame { 
-    box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); border-radius: 0 0 15px 15px; 
+#main #main-content > div.frame {
+    box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); border-radius: 0 0 15px 15px;
     background: -webkit-linear-gradient(135deg, #ffffff 0%,#ffffff 99%, #96c7f7 99%,#70b7ff 100%);
 }
 
 /* notice post mouse hovered */
 #article-list > .article-list-row.notice:hover { animation: 30s anim_hovered_background; }
-    
+
 .pagination > li > a:hover { animation: infinite AquaLinkBG 1.5s; }
-.pagination > .active > a, 
-.pagination > .active > a:focus, 
-.pagination > .active > a:hover, 
-.pagination > .active > span, 
-.pagination > .active > span:focus, 
-.pagination > .active > span:hover 
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover
 { background-color: #0099ff; border-color: #0099ff; }
 
 #article-content-wrapper > .header { border-top: 3px solid #0099ff; background: #d4eeff; }
@@ -163,12 +164,3 @@ header #header-bar > .row { box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2); borde
     0% {background-position: 300px 0,0 0;}
     100% {background-position: 0 300px,400px 400px;}
 }
-
-/* 
-** 2018-12-24 ~ 25
-** 이게 올라갈 때 쯤이면... 
-** 저는 이미 클스마스 즐기러 가있겠네요! 
-** ㅎㅎ;; ㅈㅅ;;
-**
-** 예정 업로드 시각 - 11:05
-*/

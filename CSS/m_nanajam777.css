@@ -1,10 +1,10 @@
-﻿@import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
+@import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
 
-/* 
+/*
 ** Github : http://github.com/Ingether/TGD-CSS/
 ** Copyright(c)2018 All rights reserved by nanajam777
 **
-** This script is designed for mobile devices. 
+** This script is designed for mobile devices.
 ** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
 */
 
@@ -14,21 +14,17 @@
 /* pinned post logo */
 span.a-badge i.fa.fa-info-circle { color: red !important; }
 
-header { 
-    border-bottom-color: #0099ff !important; 
-    background: #d4eeff !important; 
+header {
+    border-bottom-color: #0099ff !important;
+    background: #d4eeff !important;
 }
 header > #header-area > a > h1 { 
-<<<<<<< HEAD
-    background: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness_m.png) no-repeat; 
-    background-size: 85px 32px; /*90px 32px; */
-=======
-    background: url(https://ingether.github.io/TGD-CSS/Logo/CI_xmas_m.png) no-repeat; 
-    background-size: 90px 32px; 
+    background: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png) no-repeat;
+    background-size: 90px 32px;
 >>>>>>> parent of 14dfde6... End of Xmas
 }
-header > #header-area > #header-bar-link { 
-    color: #0099ff; 
+header > #header-area > #header-bar-link {
+    color: #0099ff;
 }
 
 #header-top-notice a { font-weight: bold; color: #0099ff !important; }
@@ -61,8 +57,8 @@ header > #header-area > #header-bar-link {
 /* button color animations */
 .btn-primary { border: 0px; animation: infinite rainbowLinkBG 3s; }
 
-.pagination > .active > a, .pagination > .active > a:focus, 
-.pagination > .active > a:hover, .pagination > .active > span, 
+.pagination > .active > a, .pagination > .active > a:focus,
+.pagination > .active > a:hover, .pagination > .active > span,
 .pagination > .active > span:focus, .pagination > .active > span:hover { background-color: #0099ff; border-color: #0099ff; }
 .pagination > li > a, .pagination > li > span:hover { color: #0099ff; }
 
@@ -88,6 +84,6 @@ header > #header-area > #header-search-link { color: #0099ff; }
     45% { background-color: #43ff2a; }
     60% { background-color: #2a89ff; }
     75% { background-color: #202082; }
-    90% { background-color: #6b2aff; } 
+    90% { background-color: #6b2aff; }
     100% { background-color: #e82aff; }
 }
