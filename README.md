@@ -5,7 +5,7 @@
 
 ## [Emotes](https://github.com/Ingether/TGD-CSS/tree/master/Emotes)
 * <img src="https://ingether.github.io/TGD-CSS/Emotes/Badge_0_Start/02_72.png" width="18" height="18"> [물방울](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/Badge_0_Start)
-* <img src="https://ingether.github.io/TGD-CSS/Emotes/Badge_3_mon/outline_72.png" width="18" height="18"> [물방울](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/Badge_3_mon)
+* <img src="https://ingether.github.io/TGD-CSS/Emotes/Badge_3_mon/outline_72.png" width="18" height="18"> [광어](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/Badge_3_mon)
 
 
 ## [Images](https://github.com/Ingether/TGD-CSS/tree/master/Images)
