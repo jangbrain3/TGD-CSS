@@ -15,7 +15,7 @@
 * <img src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajamUh/Wooha56x_fix.png" width="28" height="28"> [우하](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMUh)
 
 
-## [Images](https://github.com/Ingether/TGD-CSS/tree/master/Images)
+## [Images](https://github.com/Ingether/TGD-CSS/tree/master/Images) & [Logo](https://github.com/Ingether/TGD-CSS/tree/master/Logo)
 CSS나 기타 소스에 사용되는 이미지들이 모여있는 곳입니다.
 
 ## 제작자
