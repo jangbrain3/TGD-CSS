@@ -4,7 +4,7 @@
 [우정잉 트게더](http://tgd.kr/nanajam777)에서 사용되는 커스텀 스타일 시트 입니다.
 
 ## [Emotes](https://github.com/Ingether/TGD-CSS/tree/master/Emotes)
-* <img src="(https://ingether.github.io/TGD-CSS/Emotes/Badge_0_Start/02_72.png" width="18" height="18">
+* <img src="https://ingether.github.io/TGD-CSS/Emotes/Badge_0_Start/02_72.png" width="18" height="18">
 * ![물방울](https://ingether.github.io/TGD-CSS/Emotes/Badge_0_Start/02_72.png)
 * 광어
 
