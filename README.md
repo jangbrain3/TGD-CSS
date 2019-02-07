@@ -6,7 +6,7 @@
 ## [Emotes](https://github.com/Ingether/TGD-CSS/tree/master/Emotes)
 *
 <div>
-<img src="https://ingether.github.io/TGD-CSS/Emotes/Badge_0_Start/02_72.png" width="90%"></img>
+<img src="https://ingether.github.io/TGD-CSS/Emotes/Badge_0_Start/02_72.png" width=72></img>
 </div>
 * 물방울
 * 광어
