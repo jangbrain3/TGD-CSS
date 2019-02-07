@@ -9,7 +9,9 @@
 */
 
 /* main body */
-#main-content, body, footer { background: #d4eeff !important; }
+#main-content, body, footer {
+  background: #d4eeff !important;
+}
 
 /* pinned post logo */
 span.a-badge i.fa.fa-info-circle { color: red !important; }
