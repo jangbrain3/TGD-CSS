@@ -19,5 +19,8 @@
 ## [Images](https://github.com/Ingether/TGD-CSS/tree/master/Images) & [Logo](https://github.com/Ingether/TGD-CSS/tree/master/Logo)
 CSS나 기타 소스에 사용되는 이미지들이 모여있는 곳입니다.
 
+## [XSplit](https://github.com/Ingether/TGD-CSS/tree/master/_xsplit)
+Xsplit 세팅 구성을 위한 간단한 에셋들입니다.
+
 ## 제작자
 * http://twitch.tv/ingether
