@@ -11,3 +11,8 @@
 * autodate.js
 * 자바스크립트로 짜여진 Xsplit Text 플러그인입니다.
 * General Purpose Clock 을 수정하여 만들었습니다.
+
+## 고객지원
+```sh
+https://discord.gg/SQs6Taw
+```

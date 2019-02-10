@@ -45,3 +45,8 @@ PC/모바일 관계없이 공통으로 [highlight.css]("http://github.com/ingeth
 * 이모티콘 및 이미지는 스트리머 [우정잉](http://twitch.tv/nanaam777)님께 문의하셔야 합니다.
 * CSS 오류 문의 : [트게더](http://tgd.kr)에서 '잉게더'에게 쪽지 보내기를 이용해 주세요.
 * 연락처 : ingether@hotmail.com
+
+## 고객지원
+```sh
+https://discord.gg/SQs6Taw
+```
