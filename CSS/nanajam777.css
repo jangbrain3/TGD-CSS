@@ -154,8 +154,4 @@ header #header-bar > .row {
 @keyframes anim_hovered_background {
     0% { background-color: #f3f3f3; }
     1% { background-color: #d4eeff; }
-    }
-
-/*
-** Happy New Year!
-*/
+}

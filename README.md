@@ -2,7 +2,7 @@
 + 자기계발의 일환입니다. 동참하십시오, 채권단, 우애나, 우빡이 여러분.
 
 ## [CSS](https://github.com/Ingether/TGD-CSS/tree/master/CSS)
-[우정잉 트게더](http://tgd.kr/nanajam777)에서 사용되는 커스텀 스타일 시트 입니다.
+[우정잉 트게더](http://tgd.kr/nanajam777)에서 사용되는 커스텀 CSS 입니다.
 
 ## [Emotes](https://github.com/Ingether/TGD-CSS/tree/master/Emotes)
 ### 구독배지
