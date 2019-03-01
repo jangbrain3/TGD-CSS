@@ -24,8 +24,8 @@ body {
 /* logo */
 header .row > div:nth-child(1) > a {
     background-repeat: no-repeat; display: block; width: 158px; height: 50px;
-    /* background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png); }*/
-    background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_31.png); }
+    background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png); }
+    
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
 /* DefaultColor */
