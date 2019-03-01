@@ -9,11 +9,11 @@
 */
 
 :root {
-    --color-1: var(--color-1); /* 1번 컬러 */
-    --color-2: var(--color-2); /* 2번 컬러 */
-    --color-3: var(--color-3); /* 3번 컬러 */
-    --color-4: var(--color-4); /* 4번 컬러 */
-    --color-5: var(--color-5); /* 5번 컬러 */
+    --color-1: #ffffff; /* 1번 컬러*/
+    --color-2: #d4eeff; /* 2번 컬러*/
+    --color-3: #99ccff; /* 3번 컬러*/
+    --color-4: #0099ff; /* 4번 컬러*/
+    --color-5: #0066cc; /* 5번 컬러*/
 
     --logo-URL: url("https:ingether.github.io/TGD-CSS/Logo/CI_Happiness.png");
     --logo-size: 90px 32px;
