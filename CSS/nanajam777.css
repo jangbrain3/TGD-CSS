@@ -158,17 +158,3 @@ header #header-bar > .row {
     0% { background-color: #f3f3f3; }
     1% { background-color: #d4eeff; }
 }
-
-/* go to top */
-
-#movetotop img {
-    display:none
-}
-#movetotop {
-    display: inline-block;
-    opacity:1;
-    background: url("https://ingether.github.io/TGD-CSS/Images/nnj.png");
-    width: 80px;  
-    height: 80px;
-    background-size: contain;
-}
