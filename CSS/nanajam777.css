@@ -14,6 +14,7 @@
 
 /* @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); */
 
+/* 배경 그라디언트 */
 html {
     height:auto !important;
     background: linear-gradient(to bottom, #ffffff, #d0e6fc, #70b7ff);
@@ -22,56 +23,234 @@ body {
     background: transparent;
 }
 
-/* logo */
+/* 잉게더 메인 로고 */
 header .row > div:nth-child(1) > a {
     background-repeat: no-repeat; display: block; width: 158px; height: 50px;
-    background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png); }
+    background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png); 
+}
+header .row > div:nth-child(1) > a img { display:none; }
 
-header .row > div:nth-child(1) > a img { opacity: 0; }
-
-/* DefaultColor */
+/* 헤더 상단 패딩 제거 */
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
 
-/* search box color  */
-header #right-search-form > #right-search-btn { color: #70b7ff; background: transparent; border: none; font-size: 1.4em; }
-header #right-search-form > input[type=text] { position: relative; border: 3px solid #70b7ff; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
+/* 검색창  */
+header #right-search-form > #right-search-btn { 
+    color: #70b7ff; 
+    background: transparent; 
+    border: none; 
+    font-size: 1.4em; 
+}
+header #right-search-form > input[type=text] { 
+    position: relative; 
+    border: 3px solid #70b7ff; 
+    background: #fff; 
+    font-size: 1.1em; 
+    padding: 0.3em 0.5em; 
+}
 
 /* header-bar */
-/* header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #0099ff; background: #d4eeff; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 } */
 header #header-bar > .row {
     padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #96c7f7;
     background: -webkit-linear-gradient(45deg, #70b7ff 0%,#96c7f7 11%,#cbdced 100%);
     border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 }
 
-/*advertisement tag */
+/* 트게더 전광판 */
 header #header-bar #header-top-notice strong.notice-badge {
    background: #0099ff; padding: 4px 8px; color: #fff; font-weight: bold
  }
 
-/* change eye icon position  */
-#article-list #article-option-area>#article-option-area-toggle-btn { position: relative; right: 14px; }
+/* 읽은 게시글 숨기기 버튼 위치  */
+#article-list #article-option-area > #article-option-area-toggle-btn { position: relative; right: 14px; }
 
-/* tgd menu box */
-#main .menu-wrapper > .header {
-    background: -webkit-linear-gradient(45deg, #70b7ff 10%,#96c7f7 100%);
-    color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 10px 10px 0 0;}
+/* 전체 보더 추가 */
+/* #main .menu-wrapper {
+    border:1px solid #a2a2a2
+} */
+
+/* 트게더 메뉴 버튼 패딩 추가 */
+#main .menu-wrapper > a {
+    padding:8px 3px
+}
+
+#main .menu-wrapper > a:hover {
+    animation: 30s greyout;
+}
+
 #main .menu-wrapper > a > em { color: #99ccff;}
 #main .menu-wrapper > a > i.fa.fa-square { color:#99ccff; }
 
+/* nav box category distribute */
+/* #main .menu-wrapper .spacer {
+  background: rgba(95,02,22,0);
+  height: 4px;
+} */
+
+/* 트게더 메뉴 카테고리 헤더 */
+/* #main .menu-wrapper > .header {
+    background: -webkit-linear-gradient(45deg, #70b7ff 10%,#96c7f7 100%);
+    color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 10px 10px 0 0;
+} */
+#main .menu-wrapper > .header {
+    background:#99ccff;
+    color:#ffffff;
+    padding:9px 12px
+}
+
+/* 페이지 하단  */
+
+/* 페이지 버튼 - 일반  */
+.pagination > li > a,
+.pagination > li > span {
+    color:#ffffff;
+    background-color:#99ccff;
+    border:none;
+    border-bottom:4px solid #70b7ff;
+}
+/* 페이지버튼 - 포커스, 마우스오버 */
+.pagination > li > a:hover,
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover, 
+.pagination > .active > span:focus {
+    margin-top:2px;
+    color:#ffffff;
+    background-color:#70b7ff;
+    border-bottom:1px solid #70b7ff;
+}
+
+/* 글쓰기 버튼 */
+.btn-info,
+.btn-primary {
+    border:0!important;
+    margin-top:0!important;
+    margin-bottom:3px!important;
+    background:#0099ff!important;
+    color:#fff!important;
+    font-weight:700!important;
+    font-size:9pt!important;
+    border-radius:5px!important;
+    box-shadow:0 4px 0 0 #015d9b!important
+}
+.btn-info:hover,
+.btn-primary:hover {
+    margin-top:2px!important;
+    margin-bottom:1px!important;
+    background:#70b7ff!important;
+    box-shadow:0 2px 0 0 #015d9b!important
+}
+.btn-info:active,
+.btn-primary:active {
+    margin-top:3px!important;
+    margin-bottom:0!important;
+    background:#70b7ff!important;
+    box-shadow:0 1px 0 0 #015d9b!important
+}
+
+/* 인기글 버튼 */
+.btn.best {
+    border:0!important;
+    margin-top:0!important;
+    margin-bottom:3px!important;
+    background:#f3ce36!important;
+    color:#fff!important;
+    font-weight:700!important;
+    font-size:9pt!important;
+    border-radius:5px!important;
+    box-shadow:0 4px 0 0 #c7a620!important
+}
+.btn.best:hover {
+    margin-top:2px!important;
+    margin-bottom:1px!important;
+    background:#ecc528!important;
+    box-shadow:0 2px 0 0 #c7a620!important
+}
+.btn.best:active {
+    margin-top:3px!important;
+    margin-bottom:0!important;
+    background:#ecc528!important;
+    box-shadow:0 1px 0 0 #c7a620!important
+}
+.btn.best.enable {
+    margin-top:2px!important;
+    margin-bottom:1px!important;
+    box-shadow:0 2px 0 0 #c7a620!important
+}
+.btn.best.enable:hover {
+    margin-top:1px!important;
+    margin-bottom:2px!important;
+    background:#ecc528!important;
+    box-shadow:0 3px 0 0 #c7a620!important
+}
+.btn.best.enable:active {
+    margin-top:3px!important;
+    margin-bottom:0!important;
+    background:#ecc528!important;
+    box-shadow:0 1px 0 0 #c7a620!important
+}
+
+/* 잉게더 검색창 버튼 */
+.input-group-btn > .btn {
+    border:0!important;
+    margin-top:0!important;
+    margin-bottom:3px!important;
+    background:#0099ff!important;
+    color:#fff!important;
+    font-weight:700!important;
+    font-size:9pt!important;
+    border-radius:5px!important;
+    box-shadow:0 4px 0 0 #015d9b!important
+}
+.input-group-btn > .btn:active, 
+.input-group-btn > .btn:focus {
+    margin-top:3px!important;
+    margin-bottom:0!important;
+    background:#70b7ff!important;
+    box-shadow:0 1px 0 0 #015d9b!important
+}
+.input-group-btn > .btn:hover {
+    margin-top:2px!important;
+    margin-bottom:1px!important;
+    background:#70b7ff!important;
+    box-shadow:0 2px 0 0 #015d9b!important
+}
+/* 검색창필드 */
+div #article-list #boardSearchForm {
+    width:100%;
+    max-width:450px;
+    margin:20px auto;
+    background:#99ccff;
+    padding:5px 5px;
+    border-radius:4px;
+}
+div #article-list #boardSearchForm .btn, 
+div #article-list #boardSearchForm input {
+    background:transparent;
+    color:black;
+    font-weight:bold;
+    border:0;
+}
+div #article-list #boardSearchForm input {
+    background:#ffffff;
+     padding-left: -3px;
+    padding-right: -3px; 
+    border-left: 8px solid #99ccff; 
+    border-right: 8px solid #99ccff;
+    border-radius: 15px 15px 15px 15px ;
+}
+
+
 /* remove nav box border */
 header #header-bar > .row,
-#main .menu-wrapper,
+/* #main .menu-wrapper, */
 #main #main-content > div.frame {
   border-right: none;
   border-bottom: none;
   border-radius: 10px 10px 0 0;
 }
 
-/* nav box category distribute */
-#main .menu-wrapper .spacer {
-  background: rgba(95,02,22,0);
-  height: 4px;
-}
+
 
 /* main shadow */
 header #header-bar > .row {
@@ -86,15 +265,9 @@ header #header-bar > .row {
 
 /* notice post mouse hovered */
 #article-list > .article-list-row.notice:hover { animation: 30s anim_hovered_background; }
+/* 일반 포스트 마우스 오버  */
+#article-list > .article-list-row > .item > .list-title:hover { animation: 30s greyout-color; }
 
-.pagination > li > a:hover { animation: infinite AquaLinkBG 1.5s; }
-.pagination > .active > a,
-.pagination > .active > a:focus,
-.pagination > .active > a:hover,
-.pagination > .active > span,
-.pagination > .active > span:focus,
-.pagination > .active > span:hover
-{ background-color: #0099ff; border-color: #0099ff; }
 
 #article-content-wrapper > .header { border-top: 3px solid #0099ff; background: #d4eeff; }
 #article-content-wrapper > .footer { border-bottom: 3px solid #0099ff; background: #d4eeff; }
@@ -112,7 +285,8 @@ header #header-bar > .row {
 
 /* like highlighter */
 #article-list > .article-list-row > .item > .list-header > span { background-color: #0099ff; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
-/* #article-list > .article-list-row > .item > .list-header.v10 > span { background-color: #0099ff; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px } */
+
+
 
 /* viewers */
 #board-info #viewers-area #viewers:before { content: "잉게더 망령 "; cursor: text; }
@@ -122,12 +296,9 @@ header #header-bar > .row {
 #board-info #board-info-profile-img { border: 2px solid #0099ff; border-radius: 30%; width: 50px; height: 50px; }
 
 /* badge at viewer box */
-/* #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); } */
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/2y_18.png"); }
 
-/* ButtonAnim */
-.btn-primary { background: #0099ff; border-color: #ffffff; }
-.btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
+
 
 /* keyframe animations */
 @keyframes rainbowLink {
@@ -158,4 +329,21 @@ header #header-bar > .row {
 @keyframes anim_hovered_background {
     0% { background-color: #f3f3f3; }
     1% { background-color: #d4eeff; }
+    99% { background-color: #d4eeff; }
+    100% { background-color: #f3f3f3; }
 }
+
+@keyframes greyout-color {
+    0% { background-color: #ffffff; }
+    1% { background-color: #cccccc; }
+    99% { background-color: #cccccc; }
+    100% { background-color: #ffffff; }
+}
+
+@keyframes greyout {
+    000% { background : #ffffff;}
+    001% { background : #cccccc;}
+    099% { background : #cccccc;}
+    100% { background : #ffffff;}
+}
+
