@@ -56,23 +56,83 @@ span.a-badge i.fa.fa-star {
 }
 
 :root {
-    --bg-img: url("https://ingether.github.io/TGD-CSS/gif/0001.gif");
+    --bg-img1: url("https://ingether.github.io/TGD-CSS/gif/0001.gif");
+    --bg-img2: url("https://ingether.github.io/TGD-CSS/gif/ace.gif");
+    --bg-img3: url("https://ingether.github.io/TGD-CSS/gif/appear.gif");
+    --bg-img4: url("https://ingether.github.io/TGD-CSS/gif/clap.gif");
+    --bg-img5: url("https://ingether.github.io/TGD-CSS/gif/salute.gif");
 }
 
 /** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/ 
-/* .fr-command.fr-emoticon[data-param1=DAESuppy] > img { 
-     width: 30px !important; 
-     height: 30px !important; 
-     padding-left: 30px;
-     background-image: var(--bg-img);
-     background-size: 100%;
-}  */
+.fr-command.fr-emoticon[data-param1=JKanStyle] > img { 
+    width: 30px !important; 
+    height: 30px !important; 
+    padding-left: 30px;
+    background-image: var(--bg-img1);
+    background-size: 100%;
+} 
+.fr-command.fr-emoticon[data-param1=OptimizePrime] > img { 
+    width: 30px !important; 
+    height: 30px !important; 
+    padding-left: 30px;
+    background-image: var(--bg-img2);
+    background-size: 100%;
+} 
+.fr-command.fr-emoticon[data-param1=StoneLightning] > img { 
+    width: 30px !important; 
+    height: 30px !important; 
+    padding-left: 30px;
+    background-image: var(--bg-img3);
+    background-size: 100%;
+} 
+.fr-command.fr-emoticon[data-param1=TheRinger] > img { 
+    width: 30px !important; 
+    height: 30px !important; 
+    padding-left: 30px;
+    background-image: var(--bg-img4);
+    background-size: 100%;
+} 
+.fr-command.fr-emoticon[data-param1=RedCoat] > img { 
+    width: 30px !important; 
+    height: 30px !important; 
+    padding-left: 30px;
+    background-image: var(--bg-img5);
+    background-size: 100%;
+} 
 
 /** 글작성 후 보이는 이미지 수정**/ 
 .fr-emoticon.fr-deletable > img[alt=JKanStyle]{ 
-     width: 50px !important; 
-     height: 50px !important; 
-     padding-left: 50px;
-     background-image: var(--bg-img);
-     background-size: 100%; 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px;
+    background-image: var(--bg-img1);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=OptimizePrime]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px;
+    background-image: var(--bg-img2);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=StoneLightning]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px;
+    background-image: var(--bg-img3);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=TheRinger]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px;
+    background-image: var(--bg-img4);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=RedCoat]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px;
+    background-image: var(--bg-img5);
+    background-size: 100%; 
 }
