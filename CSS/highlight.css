@@ -275,6 +275,8 @@ div #article-list #boardSearchForm input {
 }
 
 /* 목록 및 스크랩  */
+a.btn:nth-child(4),
+a.btn:nth-child(3),
 a.btn:nth-child(2),
 a.btn-sm:nth-child(1) {
     width:75px;
@@ -288,6 +290,8 @@ a.btn-sm:nth-child(1) {
     box-shadow:0 6px 0 0 var(--color2);
     outline:0!important;
 }
+a.btn:nth-child(4):hover,
+a.btn:nth-child(3):hover,
 a.btn:nth-child(2):hover,
 a.btn-sm:nth-child(1):hover {
     margin-top:3px;
@@ -296,6 +300,8 @@ a.btn-sm:nth-child(1):hover {
     border-color:var(--color2)!important;
     box-shadow:0 3px 0 0 var(--color2);
 }
+a.btn:nth-child(4):active,
+a.btn:nth-child(3):active,
 a.btn:nth-child(2):active,
 a.btn-sm:nth-child(1):active {
     margin-top:6px;
