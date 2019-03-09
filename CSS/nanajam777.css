@@ -214,6 +214,7 @@ header #header-bar > .row {
     --bg-img7: url("https://ingether.github.io/TGD-CSS/gif/taebo112.gif");
     --bg-img8: url("https://ingether.github.io/TGD-CSS/gif/sg112.gif");
     --bg-img9: url("https://ingether.github.io/TGD-CSS/gif/sexy112.gif");
+    --bg-img10: url("https://ingether.github.io/TGD-CSS/gif/bang112.gif");
 
     --size: 112px !important;
 }
@@ -280,5 +281,12 @@ header #header-bar > .row {
     height: 112px !important;
     padding-left: 112px !important;
     background-image: var(--bg-img9);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=DansGame]{ 
+    width: 112px !important;
+    height: 112px !important;
+    padding-left: 112px !important;
+    background-image: var(--bg-img10);
     background-size: 100%; 
 }
