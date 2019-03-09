@@ -1,5 +1,4 @@
 @import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
-@import url("https://ingether.github.io/TGD-CSS/CSS/emoji_pc.css");
 @import url("https://jayppo.github.io/CSS/component/dropdown.css");
 
 /*
@@ -205,3 +204,81 @@ header #header-bar > .row {
     100% { background : #ffffff;}
 }
 
+:root {
+    --bg-img1: url("https://ingether.github.io/TGD-CSS/gif/ok112.gif");
+    --bg-img2: url("https://ingether.github.io/TGD-CSS/gif/ace112.gif");
+    --bg-img3: url("https://ingether.github.io/TGD-CSS/gif/appear112.gif");
+    --bg-img4: url("https://ingether.github.io/TGD-CSS/gif/clap112.gif");
+    --bg-img5: url("https://ingether.github.io/TGD-CSS/gif/salute112.gif");
+    --bg-img6: url("https://ingether.github.io/TGD-CSS/gif/boq112.gif");
+    --bg-img7: url("https://ingether.github.io/TGD-CSS/gif/taebo112.gif");
+    --bg-img8: url("https://ingether.github.io/TGD-CSS/gif/sg112.gif");
+    --bg-img9: url("https://ingether.github.io/TGD-CSS/gif/sexy112.gif");
+
+    --size: 112px !important;
+}
+
+/** 글작성 후 보이는 이미지 수정**/ 
+.fr-emoticon.fr-deletable > img[alt=JKanStyle]{ 
+    width: 112px !important;
+    height: 112px !important;
+    padding-left: 112px !important;
+    background-image: var(--bg-img1);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=OptimizePrime]{ 
+    width: 112px !important; 
+    height: 112px !important; 
+    padding-left: 112px !important;
+    background-image: var(--bg-img2);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=StoneLightning]{ 
+    width: 112px !important; 
+    height: 112px !important; 
+    padding-left: 112px !important;
+    background-image: var(--bg-img3);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=TheRinger]{ 
+    width: 112px !important; 
+    height: 112px !important; 
+    padding-left: 112px !important;
+    background-image: var(--bg-img4);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=RedCoat]{ 
+    width: 112px !important; 
+    height: 112px !important; 
+    padding-left: 112px !important;
+    background-image: var(--bg-img5);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=Kappa]{ 
+    width: 112px !important; 
+    height: 112px !important;
+    padding-left: 112px !important;
+    background-image: var(--bg-img6);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=JonCarnage]{ 
+    width: 112px !important;
+    height: 112px !important;
+    padding-left: 112px !important;
+    background-image: var(--bg-img7);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=BCWarrior]{ 
+    width: 112px !important;
+    height: 112px !important;
+    padding-left: 112px !important;
+    background-image: var(--bg-img8);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=GingerPower]{ 
+    width: 112px !important;
+    height: 112px !important;
+    padding-left: 112px !important;
+    background-image: var(--bg-img8);
+    background-size: 100%; 
+}

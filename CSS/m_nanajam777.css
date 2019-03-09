@@ -1,5 +1,5 @@
 @import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
-@import url("https://ingether.github.io/TGD-CSS/CSS/emoji_m.css");
+
 
 /*
 ** Github : http://github.com/Ingether/TGD-CSS/
@@ -88,4 +88,82 @@ header > #header-area > #header-search-link { color: #0099ff; }
     75% { background-color: #202082; }
     90% { background-color: #6b2aff; }
     100% { background-color: #e82aff; }
+}
+
+:root {
+    --bg-img1: url("https://ingether.github.io/TGD-CSS/gif/ok56.gif");
+    --bg-img2: url("https://ingether.github.io/TGD-CSS/gif/ace56.gif");
+    --bg-img3: url("https://ingether.github.io/TGD-CSS/gif/appear56.gif");
+    --bg-img4: url("https://ingether.github.io/TGD-CSS/gif/clap56.gif");
+    --bg-img5: url("https://ingether.github.io/TGD-CSS/gif/salute56.gif");
+    --bg-img6: url("https://ingether.github.io/TGD-CSS/gif/boq56.gif");
+    --bg-img7: url("https://ingether.github.io/TGD-CSS/gif/taebo56.gif");
+    --bg-img8: url("https://ingether.github.io/TGD-CSS/gif/sg56.gif");
+    --bg-img9: url("https://ingether.github.io/TGD-CSS/gif/sexy56.gif");
+    
+}
+
+/** 글작성 후 보이는 이미지 수정**/ 
+.fr-emoticon.fr-deletable > img[alt=JKanStyle]{ 
+    width: 50px !important;
+    height: 50px !important; 
+    padding-left: 50px !important;
+    background-image: var(--bg-img1);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=OptimizePrime]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px !important;
+    background-image: var(--bg-img2);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=StoneLightning]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px !important;
+    background-image: var(--bg-img3);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=TheRinger]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px !important;
+    background-image: var(--bg-img4);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=RedCoat]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px !important;
+    background-image: var(--bg-img5);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=Kappa]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px !important;
+    background-image: var(--bg-img6);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=JonCarnage]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px !important;
+    background-image: var(--bg-img7);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=BCWarrior]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px !important;
+    background-image: var(--bg-img8);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=GingerPower]{ 
+    width: 50px !important;
+    height: 50px !important;
+    padding-left: 50px !important;
+    background-image: var(--bg-img8);
+    background-size: 100%; 
 }
