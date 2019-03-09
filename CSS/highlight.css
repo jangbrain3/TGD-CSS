@@ -64,13 +64,15 @@ span.a-badge i.fa.fa-star {
 }
 
 :root {
-    --bg-img1: url("https://ingether.github.io/TGD-CSS/gif/0001.gif");
+    --bg-img1: url("https://ingether.github.io/TGD-CSS/gif/ok.gif");
     --bg-img2: url("https://ingether.github.io/TGD-CSS/gif/ace.gif");
     --bg-img3: url("https://ingether.github.io/TGD-CSS/gif/appear.gif");
     --bg-img4: url("https://ingether.github.io/TGD-CSS/gif/clap.gif");
     --bg-img5: url("https://ingether.github.io/TGD-CSS/gif/salute.gif");
+    --bg-img6: url("https://ingether.github.io/TGD-CSS/gif/boq.gif");
 }
 
+/* todo: replace to thumbnails for optimizing data */
 /** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/ 
 .fr-command.fr-emoticon[data-param1=JKanStyle] > img { 
     width: 30px !important; 
@@ -105,6 +107,13 @@ span.a-badge i.fa.fa-star {
     height: 30px !important; 
     padding-left: 30px;
     background-image: var(--bg-img5);
+    background-size: 100%;
+} 
+.fr-command.fr-emoticon[data-param1=Kappa] > img { 
+    width: 30px !important; 
+    height: 30px !important; 
+    padding-left: 30px;
+    background-image: var(--bg-img6);
     background-size: 100%;
 } 
 
@@ -144,7 +153,13 @@ span.a-badge i.fa.fa-star {
     background-image: var(--bg-img5);
     background-size: 100%; 
 }
-
+.fr-emoticon.fr-deletable > img[alt=Kappa]{ 
+    width: 50px !important; 
+    height: 50px !important; 
+    padding-left: 50px;
+    background-image: var(--bg-img6);
+    background-size: 100%; 
+}
 
 /* 페이지 하단  */
 
