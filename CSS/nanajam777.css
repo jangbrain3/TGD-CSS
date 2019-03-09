@@ -26,7 +26,7 @@ body {
 /* 잉게더 메인 로고 */
 header .row > div:nth-child(1) > a {
     background-repeat: no-repeat; display: block; width: 158px; height: 50px;
-    background-image: url(https://ingether.github.io/TGD-CSS/Logo/CI_Happiness.png); 
+    background-image: url(https://ingether.github.io/TGD-CSS/Logo/CH_Lego.png); 
 }
 header .row > div:nth-child(1) > a img { display:none; }
 
