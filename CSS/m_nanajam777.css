@@ -104,66 +104,76 @@ header > #header-area > #header-search-link { color: #0099ff; }
 }
 
 /** 글작성 후 보이는 이미지 수정**/ 
-.fr-emoticon.fr-deletable > img[alt=JKanStyle]{ 
-    width: 50px !important;
-    height: 50px !important; 
-    padding-left: 50px !important;
-    background-image: var(--bg-img1);
-    background-size: 100%; 
-}
-.fr-emoticon.fr-deletable > img[alt=OptimizePrime]{ 
-    width: 50px !important; 
-    height: 50px !important; 
-    padding-left: 50px !important;
-    background-image: var(--bg-img2);
-    background-size: 100%; 
-}
-.fr-emoticon.fr-deletable > img[alt=StoneLightning]{ 
-    width: 50px !important; 
-    height: 50px !important; 
-    padding-left: 50px !important;
-    background-image: var(--bg-img3);
-    background-size: 100%; 
-}
-.fr-emoticon.fr-deletable > img[alt=TheRinger]{ 
-    width: 50px !important; 
-    height: 50px !important; 
-    padding-left: 50px !important;
-    background-image: var(--bg-img4);
-    background-size: 100%; 
-}
-.fr-emoticon.fr-deletable > img[alt=RedCoat]{ 
-    width: 50px !important; 
-    height: 50px !important; 
-    padding-left: 50px !important;
-    background-image: var(--bg-img5);
-    background-size: 100%; 
-}
-.fr-emoticon.fr-deletable > img[alt=Kappa]{ 
-    width: 50px !important; 
-    height: 50px !important; 
-    padding-left: 50px !important;
-    background-image: var(--bg-img6);
-    background-size: 100%; 
-}
-.fr-emoticon.fr-deletable > img[alt=JonCarnage]{ 
-    width: 50px !important; 
-    height: 50px !important; 
-    padding-left: 50px !important;
-    background-image: var(--bg-img7);
-    background-size: 100%; 
-}
-.fr-emoticon.fr-deletable > img[alt=BCWarrior]{ 
-    width: 50px !important; 
-    height: 50px !important; 
-    padding-left: 50px !important;
-    background-image: var(--bg-img8);
-    background-size: 100%; 
-}
-.fr-emoticon.fr-deletable > img[alt=GingerPower]{ 
-    width: 50px !important;
+img[alt="JKanStyle"],
+#article-content-wrapper #article-content img[alt="JKanStyle"] {
+    background: var(--bg-img1);
+    width: 50px;
     height: 50px !important;
-    padding-left: 50px !important;
-    background-image: var(--bg-img9);
-    background-size: 100%; 
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+img[alt="OptimizePrime"],
+#article-content-wrapper #article-content img[alt="OptimizePrime"] {
+    background: var(--bg-img2);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+img[alt="StoneLightning"],
+#article-content-wrapper #article-content img[alt="StoneLightning"] {
+    background: var(--bg-img3);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+img[alt="TheRinger"],
+#article-content-wrapper #article-content img[alt="TheRinger"] {
+    background: var(--bg-img4);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+img[alt="RedCoat"],
+#article-content-wrapper #article-content img[alt="RedCoat"] {
+    background: var(--bg-img5);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+img[alt="Kappa"],
+#article-content-wrapper #article-content img[alt="Kappa"] {
+    background: var(--bg-img6);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+img[alt="JonCarnage"],
+#article-content-wrapper #article-content img[alt="JonCarnage"] {
+    background: var(--bg-img7);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+
+img[alt="BCWarrior"],
+#article-content-wrapper #article-content img[alt="BCWarrior"] {
+    background: var(--bg-img8);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
+}
+img[alt="GingerPower"],
+#article-content-wrapper #article-content img[alt="GingerPower"] {
+    background: var(--bg-img9);
+    width: 50px;
+    height: 50px !important;
+    padding-left: 50px;
+    background-size: 50px 50px;
 }
