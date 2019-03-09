@@ -315,6 +315,38 @@ div #article-list #boardSearchForm input {
     color:#c6fdff!important;
 }
 
+/* 목록 및 스크랩  */
+a.btn:nth-child(2),
+a.btn-sm:nth-child(1) {
+    font-weight:700;
+    
+    width:75px;
+    height:32px;
+    color:wthie !important;
+    margin-top:0;
+    margin-bottom:6px;
+    border:3px solid var(--color2)!important;
+    border-radius:50px;
+    background-color:white;
+    box-shadow:0 6px 0 0 var(--color2);
+    outline:0!important;
+}
+a.btn:nth-child(2):hover,
+a.btn-sm:nth-child(1):hover {
+    margin-top:3px;
+    margin-bottom:3px;
+    background-color:var(--color3);
+    border-color:var(--color2)!important;
+    box-shadow:0 3px 0 0 var(--color2);
+}
+a.btn:nth-child(2):active,
+a.btn-sm:nth-child(1):active {
+    margin-top:6px;
+    margin-bottom:0;
+    background-color:var(--color2);
+    box-shadow:0 0 0 0 var(--color2);
+    color:white !important;
+}
 
 /* remove nav box border */
 header #header-bar > .row,
