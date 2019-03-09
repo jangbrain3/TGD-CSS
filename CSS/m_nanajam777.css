@@ -56,7 +56,7 @@ header > #header-area > #header-bar-link {
 #board-info > a.board-right-menu { max-height: 40px; border: 0px; vertical-align: middle; color: #0066cc; }
 
 /* button color animations */
-.btn-primary { border: 0px; animation: infinite rainbowLinkBG 3s; }
+/* .btn-primary { border: 0px; animation: infinite rainbowLinkBG 3s; } */
 
 .pagination > .active > a, .pagination > .active > a:focus,
 .pagination > .active > a:hover, .pagination > .active > span,
