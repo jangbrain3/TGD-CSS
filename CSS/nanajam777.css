@@ -318,8 +318,6 @@ div #article-list #boardSearchForm input {
 /* 목록 및 스크랩  */
 a.btn:nth-child(2),
 a.btn-sm:nth-child(1) {
-    font-weight:700;
-    
     width:75px;
     height:32px;
     color:wthie !important;
