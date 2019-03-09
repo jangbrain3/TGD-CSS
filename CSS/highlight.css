@@ -69,12 +69,12 @@ span.a-badge i.fa.fa-star {
     --bg-img5: url("https://ingether.github.io/TGD-CSS/gif/salute.gif");
     --bg-img6: url("https://ingether.github.io/TGD-CSS/gif/boq.gif");
 
-    --bg-img1-t: url("https://ingether.github.io/TGD-CSS/thumbnail/ok.gif");
-    --bg-img2-t: url("https://ingether.github.io/TGD-CSS/thumbnail/ace.gif");
-    --bg-img3-t: url("https://ingether.github.io/TGD-CSS/thumbnail/appear.gif");
-    --bg-img4-t: url("https://ingether.github.io/TGD-CSS/thumbnail/clap.gif");
-    --bg-img5-t: url("https://ingether.github.io/TGD-CSS/thumbnail/salute.gif");
-    --bg-img6-t: url("https://ingether.github.io/TGD-CSS/thumbnail/boq.gif");
+    --bg-img1-t: url("https://ingether.github.io/TGD-CSS/thumbnail/ok.png");
+    --bg-img2-t: url("https://ingether.github.io/TGD-CSS/thumbnail/ace.png");
+    --bg-img3-t: url("https://ingether.github.io/TGD-CSS/thumbnail/appear.png");
+    --bg-img4-t: url("https://ingether.github.io/TGD-CSS/thumbnail/clap.png");
+    --bg-img5-t: url("https://ingether.github.io/TGD-CSS/thumbnail/salute.png");
+    --bg-img6-t: url("https://ingether.github.io/TGD-CSS/thumbnail/boq.png");
 }
 
 /* todo: replace to thumbnails for optimizing data */
