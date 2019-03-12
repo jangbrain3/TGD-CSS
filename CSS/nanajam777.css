@@ -72,6 +72,11 @@ header #header-bar #header-top-notice strong.notice-badge {
     padding:8px 3px
 }
 
+#main .menu-wrapper {
+ border:1px solid #99ccff
+}
+
+
 #main .menu-wrapper > a:hover {
     animation: 30s greyout;
 }
@@ -96,27 +101,14 @@ header #header-bar #header-top-notice strong.notice-badge {
     padding:9px 12px
 }
 
-
-/* remove nav box border */
-header #header-bar > .row,
-/* #main .menu-wrapper, */
-#main #main-content > div.frame {
-  border-right: none;
-  border-bottom: none;
-  border-radius: 10px 10px 0 0;
-}
-
-
-
 /* main shadow */
 header #header-bar > .row {
   box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2);
   border-radius: 0 0 15px 15px;
 }
 #main #main-content > div.frame {
-    box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2);
-    border-radius: 0 0 15px 15px;
-    background: -webkit-linear-gradient(135deg, #ffffff 0%,#ffffff 99%, #96c7f7 99%,#70b7ff 100%);
+    border-radius: 10px 10px 15px 15px;
+    border:1px solid #99ccff
 }
 
 /* notice post mouse hovered */
