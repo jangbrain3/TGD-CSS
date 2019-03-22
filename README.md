@@ -1,4 +1,4 @@
-﻿# 잉게더 커스텀 CSS 
+﻿# 잉게더 보물창고 
 
 안녕하세요!   
 저는 **잉게더**의 커스텀 CSS를 관리하고 있는 그냥 트수입니다.   
@@ -21,16 +21,12 @@
 
 ## 구독 이모티콘
 
-*  <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajaMbabo/nanajaMbabo56.png"  align="top"  width="28"  height="28">  [바보세요](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMbabo)
-- <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajaMgowork/nanajaMgowork56.png"  width="28"  height="28">  [출근해라](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMgowork)
-
--  <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajaMpopcon/pcorn1x56.png"  width="28" align="top"  height="28">  [팝콘와작](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMpopcon)
-
--  <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajaMuban/nanajaMubanSample112.png"  width="28" align="top"  height="28">  [밴입니다](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMuban)
-
--  <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajaMuknow/nanajaMuno56.png"  width="28"  align="top" height="28">  [아시게쬬](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMuknow)
-
--  <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajamUh/Wooha56x_fix.png"  width="28" align="top"  height="28">  [우하](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMUh)
+-  <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajaMbabo/nanajaMbabo56.png"    width="28"  height="28" align="top">  [바보세요](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMbabo)
+-  <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajaMgowork/nanajaMgowork56.png"  width="28"  height="28" align="top">  [출근해라](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMgowork)
+-  <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajaMpopcon/pcorn1x56.png"  width="28" height="28" align="top">  [팝콘와작](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMpopcon)
+-  <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajaMuban/nanajaMubanSample112.png"  width="28" height="28" align="top">  [밴입니다](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMuban)
+-  <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajaMuknow/nanajaMuno56.png"  width="28" height="28" align="top">  [아시게쬬](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMuknow)
+-  <img  src="https://ingether.github.io/TGD-CSS/Emotes/E_nanajamUh/Wooha56x_fix.png"  width="28" height="28" align="top">  [우하](https://github.com/Ingether/TGD-CSS/tree/master/Emotes/E_nanajaMUh)
 ---
 
 ## 기타 소스
