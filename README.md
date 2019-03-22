@@ -51,3 +51,8 @@
 - [Discord](https://discord.gg/SQs6Taw)
 - <a href="mailto:ingether@hotmail.com">Send Mail</a>
 ---
+
+---
+Copyright(c) 2017-2019 All rights reserved by nanajam777
+Since December, 2017.
+---
