@@ -15,8 +15,8 @@
 ## How to apply?
 트게더 설정란에서 아래 코드를 붙여넣으시면 됩니다.   
 PC 웹과 모바일 버전이 따로이니 참고하시면 됩니다.   
-> 공통된 부분을 관리하기 위해, PC/모바일 관계없이 공통으로 [highlight.css]("http://github.com/ingether/TGD-CSS/CSS/highlight.css") 파일이 자동으로 붙어들어갑니다.
----
+공통된 부분을 관리하기 위해, PC/모바일 관계없이 공통으로 [highlight.css]("http://github.com/ingether/TGD-CSS/CSS/highlight.css") 파일이 자동으로 붙어들어갑니다.
+
 
 ### PC
 ```sh
