@@ -28,6 +28,13 @@ header .row > div:nth-child(1) > a {
     background-repeat: no-repeat; display: block; width: 158px; height: 50px;
     background-image: url(https://ingether.github.io/TGD-CSS/Logo/CH_Lego.png); 
 }
+
+header .row > div:nth-child(1) > a:hover {
+    background-repeat: no-repeat; display: block; width: 250px; height: 50px;
+    background-image: url(https://ingether.github.io/TGD-CSS/Logo/ct_fighting_hd.png); 
+    transition: .1s;
+}
+
 header .row > div:nth-child(1) > a img { display:none; }
 
 /* 헤더 상단 패딩 제거 */
@@ -84,7 +91,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #main .menu-wrapper > a:hover {
     animation: 30s greyout;
 }
- 
+
 #main .menu-wrapper > a > em { color: #99ccff;}
 #main .menu-wrapper > a > i.fa.fa-square { color:#99ccff; }
 
@@ -151,17 +158,15 @@ header #header-bar > .row {
 #board-info #board-info-profile-img { border: 2px solid #0099ff; border-radius: 30%; width: 50px; height: 50px; }
 
 /* badge at viewer box */
-/* #board-info #viewers-area .fa-user:before { 
+#board-info #viewers-area .fa-user:before { 
     color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/2y_18.png"); 
-} */
-.fa-user:before {
+}
+/* .fa-user:before {
     content: url(https://ingether.github.io/TGD-CSS/Logo/ct_fighting.png);
     left: 236px;
     top: -128px;
     position: absolute;
-}
-
-
+} */
 
 /* keyframe animations */
 @keyframes rainbowLink {
