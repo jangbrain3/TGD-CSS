@@ -28,14 +28,17 @@ header .row > div:nth-child(1) > a {
     background-repeat: no-repeat; display: block; width: 158px; height: 50px;
     background-image: url(https://ingether.github.io/TGD-CSS/Logo/CH_Lego.png); 
 }
+header .row > div:nth-child(1) > a img { display:none; }
 
+/* 우정잉 화이팅 */
 header .row > div:nth-child(1) > a:hover {
     background-repeat: no-repeat; display: block; width: 250px; height: 50px;
     background-image: url(https://ingether.github.io/TGD-CSS/Logo/ct_fighting_hd.png); 
     transition: .1s;
 }
-
-header .row > div:nth-child(1) > a img { display:none; }
+#board-info h1 > a:hover:after {
+    content: " 화이팅"
+}
 
 /* 헤더 상단 패딩 제거 */
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
