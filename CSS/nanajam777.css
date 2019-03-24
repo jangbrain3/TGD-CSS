@@ -151,7 +151,15 @@ header #header-bar > .row {
 #board-info #board-info-profile-img { border: 2px solid #0099ff; border-radius: 30%; width: 50px; height: 50px; }
 
 /* badge at viewer box */
-#board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/2y_18.png"); }
+/* #board-info #viewers-area .fa-user:before { 
+    color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/2y_18.png"); 
+} */
+.fa-user:before {
+    content: url(https://ingether.github.io/TGD-CSS/Logo/ct_fighting.png);
+    left: 236px;
+    top: -128px;
+    position: absolute;
+}
 
 
 
