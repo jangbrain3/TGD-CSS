@@ -232,6 +232,7 @@ header #header-bar > .row {
     --bg-img11: url("https://ingether.github.io/TGD-CSS/gif/hamo112.gif");
     --bg-img12: url("https://ingether.github.io/TGD-CSS/gif/dw112.gif");
     --bg-img13: url("https://ingether.github.io/TGD-CSS/gif/kkk112.gif");
+    --bg-img14: url("https://ingether.github.io/TGD-CSS/gif/tp.png");
 
     --size: 112px !important;
 }
@@ -326,5 +327,12 @@ header #header-bar > .row {
     height: 112px !important;
     padding-left: 112px !important;
     background-image: var(--bg-img13);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=ArsonNoSexy]{ 
+    width: 224px !important;
+    height: 224px !important;
+    padding-left: 224px !important;
+    background-image: var(--bg-img14);
     background-size: 100%; 
 }

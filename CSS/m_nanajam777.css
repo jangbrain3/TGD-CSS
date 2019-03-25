@@ -104,6 +104,7 @@ header > #header-area > #header-search-link { color: #0099ff; }
     --bg-img11: url("https://ingether.github.io/TGD-CSS/gif/hamo56.gif");
     --bg-img12: url("https://ingether.github.io/TGD-CSS/gif/dw56.gif");
     --bg-img13: url("https://ingether.github.io/TGD-CSS/gif/kkk56.gif");
+    --bg-img14: url("https://ingether.github.io/TGD-CSS/gif/tp.png");
 }
 
 /** 글작성 후 보이는 이미지 수정**/ 
@@ -210,5 +211,12 @@ img[alt="KevinTurtle"],
     width: 50px;
     height: 50px !important;
     padding-left: 50px;
+    background-size: 50px 50px;
+}
+#article-content-wrapper #article-content img[alt="ArsonNoSexy"] {
+    background: var(--bg-img14);
+    width: 100px;
+    height: 100px !important;
+    padding-left: 100px;
     background-size: 50px 50px;
 }
