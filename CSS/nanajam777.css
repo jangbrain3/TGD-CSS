@@ -233,6 +233,7 @@ header #header-bar > .row {
     --bg-img12: url("https://ingether.github.io/TGD-CSS/gif/dw112.gif");
     --bg-img13: url("https://ingether.github.io/TGD-CSS/gif/kkk112.gif");
     --bg-img14: url("https://ingether.github.io/TGD-CSS/gif/tp112.png");
+    --bg-img15: url("https://ingether.github.io/TGD-CSS/gif/light.png");
 
     --size: 112px !important;
 }
@@ -334,5 +335,12 @@ header #header-bar > .row {
     height: 224px !important;
     padding-left: 224px !important;
     background-image: var(--bg-img14);
+    background-size: 100%; 
+}
+.fr-emoticon.fr-deletable > img[alt=SMOrc]{ 
+    width: 112px !important;
+    height: 112px !important;
+    padding-left: 112px !important;
+    background-image: var(--bg-img15);
     background-size: 100%; 
 }
