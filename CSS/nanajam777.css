@@ -31,11 +31,11 @@ header .row > div:nth-child(1) > a {
 header .row > div:nth-child(1) > a img { display:none; }
 
 /* 우정잉 화이팅 */
-header .row > div:nth-child(1) > a:hover {
+/* header .row > div:nth-child(1) > a:hover {
     background-repeat: no-repeat; display: block; width: 250px; height: 50px;
     background-image: url(https://ingether.github.io/TGD-CSS/Logo/ct_fighting_hd.png); 
     transition: .1s;
-}
+} */
 /* #board-info h1 > a:hover:before {
     content: " 수고했어"
 } */
