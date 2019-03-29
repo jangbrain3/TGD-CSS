@@ -25,7 +25,7 @@ body {
 
 /* 트게더 메인으로 */
 header .row > div:nth-child(1) > a {
-    background-repeat: no-repeat; display: block; width: 95px; height: 30px;
+    background-repeat: no-repeat; display: block; width: 158px; height: 50px;
     background-image: url(https://ingether.github.io/TGD-CSS/asset/tgd_home.png); 
 }
 header .row > div:nth-child(1) > a img { display:none; }
@@ -41,7 +41,7 @@ header .row > div:nth-child(1) > a img { display:none; }
 } */
 
 /* 헤더 상단 패딩 제거 */
-header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
+/*header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; } */
 
 /* 검색창  */
 header #right-search-form > #right-search-btn { 
