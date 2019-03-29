@@ -26,7 +26,7 @@ body {
 /* 잉게더 메인 로고 */
 header .row > div:nth-child(1) > a {
     background-repeat: no-repeat; display: block; width: 158px; height: 50px;
-    background-image: url(https://ingether.github.io/TGD-CSS/Logo/CH_Lego.png); 
+    background-image: url(https://ingether.github.io/TGD-CSS/asset/tgd_home.png); 
 }
 header .row > div:nth-child(1) > a img { display:none; }
 
@@ -165,7 +165,7 @@ header #header-bar > .row {
     color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/2y_18.png"); 
 } */
 .fa-user:before {
-    content: url(https://ingether.github.io/TGD-CSS/asset/tgd_home.png);
+    content: url(https://ingether.github.io/TGD-CSS/Logo/ct_fighting.png);
     left: 236px;
     top: -128px;
     position: absolute;
