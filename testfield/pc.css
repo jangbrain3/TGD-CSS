@@ -1,6 +1,15 @@
 @import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
 @import url("https://jayppo.github.io/CSS/component/dropdown.css");
 
+
+/* @font-face { 
+    font-family: 'BRRA_R'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRRA_R.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; }
+* {
+    font-family: 'BRBA_R';
+} */
 /*
 ** Github : http://github.com/Ingether/TGD-CSS/
 ** Copyright(c) 2017-2019 All rights reserved by nanajam777
@@ -156,10 +165,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 #board-info h1 > a.badge.badge-live::after { font-size: 12px; content: " 생방 보기"; }
 
 /* category background */
-#article-list #article-list-category {
-    border-top: 3px solid #0099ff; 
-    background-color: #d4eeff;
-}
+#article-list #article-list-category { border-top: 3px solid #0099ff; background:  -webkit-linear-gradient(45deg, #d4eeff 0%,#d4eeff 80%,#70b7ff 100%); }
 
 #article-reply-area #reply-real-area .reply > .reply-header { background: #d4eeff; }
 #article-reply-area > .header h5 { font-size: 14px; color: #0099ff; font-weight: bold; }
@@ -171,7 +177,17 @@ header #header-bar #header-top-notice strong.notice-badge {
     font-weight: bold; 
     padding: 1px 5px; 
     font-size: 13px; 
-    border-radius: 100px }
+    border-radius: 100px 
+}
+#board-info h1 > a {
+    font-weight: 600;
+}
+
+#board-info h1 > a:hover {
+   color: #29ABE2;
+    font-weight: 700;
+    transition: all 150ms ease-in-out;
+}
 
 /* viewers */
 #board-info #viewers-area #viewers:before { content: "잉게더 망령 "; cursor: text; }
