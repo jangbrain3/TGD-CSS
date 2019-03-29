@@ -30,7 +30,7 @@ header .row > div:nth-child(1) > a {
     background-size: 120px;
     width: 120px; height: 40px;
     display: block; 
-    margin-top: 1em;
+    margin-top: 2em;
 }
 header .row > div:nth-child(1) > a img { display:none; }
 
