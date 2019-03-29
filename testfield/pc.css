@@ -1,6 +1,15 @@
 @import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
 @import url("https://jayppo.github.io/CSS/component/dropdown.css");
 
+@font-face { 
+    font-family: 'BRBA_B'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRBA_B.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+* {
+    font-family: 'BRBA_B';
+}
 /*
 ** Github : http://github.com/Ingether/TGD-CSS/
 ** Copyright(c) 2017-2019 All rights reserved by nanajam777
