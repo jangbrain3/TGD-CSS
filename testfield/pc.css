@@ -77,7 +77,11 @@ header #header-bar #header-top-notice strong.notice-badge {
  }
 
 /* 읽은 게시글 숨기기 버튼 위치  */
-#article-list #article-option-area > #article-option-area-toggle-btn { position: relative; right: 14px; }
+#article-list #article-option-area > #article-option-area-toggle-btn { 
+    position: relative; 
+    right: 14px; 
+    background-color: rgba(0,0,0,0);
+}
 
 /* 전체 보더 추가 */
 /* #main .menu-wrapper {
