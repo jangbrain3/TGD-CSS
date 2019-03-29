@@ -62,7 +62,8 @@ header #right-search-form > input[type=text] {
 header #header-bar > .row {
     padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #96c7f7;
     background: -webkit-linear-gradient(45deg, #70b7ff 0%,#96c7f7 11%,#cbdced 100%);
-    border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 }
+    border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 
+}
 
 /* 트게더 전광판 */
 header #header-bar #header-top-notice strong.notice-badge {
@@ -116,9 +117,9 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 /* 상단 메뉴 바 모양 */
-header #header-bar > .row {
+/*header #header-bar > .row {
   border-radius: 15px 15px 0 0;
-}
+}*/
 
 
 /* notice post mouse hovered */
