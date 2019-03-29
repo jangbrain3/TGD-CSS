@@ -172,7 +172,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/2y_18.png"); 
 } */
 .fa-user:before {
-    content: url(https://ingether.github.io/TGD-CSS/Logo/ct_fighting.png);
+    content: url(https://ingether.github.io/TGD-CSS/asset/title.png);
     left: 236px;
     top: -134px;
     position: absolute;
