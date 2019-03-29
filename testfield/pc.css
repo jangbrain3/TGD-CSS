@@ -1,14 +1,14 @@
 @import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
 @import url("https://jayppo.github.io/CSS/component/dropdown.css");
 
+
 @font-face { 
-    font-family: 'BRBA_B'; 
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRBA_B.woff') format('woff'); 
+    font-family: 'BRRA_R'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRRA_R.woff') format('woff'); 
     font-weight: normal; 
-    font-style: normal; 
-}
+    font-style: normal; }
 * {
-    font-family: 'BRBA_B';
+    font-family: 'BRBA_R';
 }
 /*
 ** Github : http://github.com/Ingether/TGD-CSS/
