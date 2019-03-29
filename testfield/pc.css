@@ -117,6 +117,11 @@ header #header-bar #header-top-notice strong.notice-badge {
     border:2px solid #99ccff
 }
 
+#article-list > .article-list-row > .item > .list-blocked, #article-list > .article-list-row > .item > .list-category, #article-list > .article-list-row > .item > .list-checkbox, #article-list > .article-list-row > .item > .list-header, #article-list > .article-list-row > .item > .list-time, #article-list > .article-list-row > .item > .list-title {
+    padding: 10px 0 10px 0;
+    vertical-align:top;
+}
+
 #main .menu-wrapper > a:hover {
     animation: 30s greyout;
 }
