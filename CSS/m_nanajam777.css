@@ -1,11 +1,39 @@
+/* sort by Beautify */
+
 @import url("https://ingether.github.io/TGD-CSS/CSS/common.css");
+
 /*
-** Github : http://github.com/Ingether/TGD-CSS/
-** Copyright(c) 2017-2019 All rights reserved by nanajam777
+** Github : http://github.com/ingether/TGD-CSS/
+** assets : http://github.com/ingether/assets/
+** Copyright(c) 2017-2019 All rights reserved by nanajam777 (contact: friendshiping777@gmail.com)
 **
-** This script is designed for mobile devices.
-** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
+** 잉게더는 트게더의 커스텀 CSS 운영정책을 존중합니다.
+**
+** 잉게더 디자인에 기여하고 싶으시다면, Pull request 해주세요. 
+** 검토 후 Merge 하도록 하겠습니다.
+** 해당 관련 문의 ingether@hotmail.com
 */
+
+/* 이모티콘들 */
+:root {
+    --img-logo: url("https://ingether.github.io/assets/image/title_m.png");
+
+    --bg-img1: url("https://ingether.github.io/assets/emoji/56/ok.gif");
+    --bg-img2: url("https://ingether.github.io/assets/emoji/56/ace.gif");
+    --bg-img3: url("https://ingether.github.io/assets/emoji/56/appear.gif");
+    --bg-img4: url("https://ingether.github.io/assets/emoji/56/clap.gif");
+    --bg-img5: url("https://ingether.github.io/assets/emoji/56/salute.gif");
+    --bg-img6: url("https://ingether.github.io/assets/emoji/56/boq.gif");
+    --bg-img7: url("https://ingether.github.io/assets/emoji/56/taebo.gif");
+    --bg-img8: url("https://ingether.github.io/assets/emoji/56/sg.gif");
+    --bg-img9: url("https://ingether.github.io/assets/emoji/56/sexy.gif");
+    --bg-img10: url("https://ingether.github.io/assets/emoji/56/bang.gif");
+    --bg-img11: url("https://ingether.github.io/assets/emoji/56/hamo.gif");
+    --bg-img12: url("https://ingether.github.io/assets/emoji/56/dw.gif");
+    --bg-img13: url("https://ingether.github.io/assets/emoji/56/kkk.gif");
+    --bg-img14: url("https://ingether.github.io/assets/emoji/56/wink.gif");
+    /* --bg-img15: url("https://ingether.github.io/TGD-CSS/gif/light.png");  */
+}
 
 /* 몸체  */
 body,
@@ -71,7 +99,7 @@ header.nav-up {
 
 /* 헤더 */
 header>#header-area>a>h1 {
-    background-image: url("https://ingether.github.io/TGD-CSS/assets/title_m.png");
+    background-image: var(--img-logo);
     background-size: 88px 36px;
     width: 88px;
     height: 36px;
@@ -482,24 +510,7 @@ nav#nav.hide>a {
     font-weight: 700
 }
 
-/* 이모티콘들 */
-:root {
-    --bg-img1: url("https://ingether.github.io/TGD-CSS/emoji/ok56.gif");
-    --bg-img2: url("https://ingether.github.io/TGD-CSS/emoji/ace56.gif");
-    --bg-img3: url("https://ingether.github.io/TGD-CSS/emoji/appear56.gif");
-    --bg-img4: url("https://ingether.github.io/TGD-CSS/emoji/clap56.gif");
-    --bg-img5: url("https://ingether.github.io/TGD-CSS/emoji/salute56.gif");
-    --bg-img6: url("https://ingether.github.io/TGD-CSS/emoji/boq56.gif");
-    --bg-img7: url("https://ingether.github.io/TGD-CSS/emoji/taebo56.gif");
-    --bg-img8: url("https://ingether.github.io/TGD-CSS/emoji/sg56.gif");
-    --bg-img9: url("https://ingether.github.io/TGD-CSS/emoji/sexy56.gif");
-    --bg-img10: url("https://ingether.github.io/TGD-CSS/emoji/bang56.gif");
-    --bg-img11: url("https://ingether.github.io/TGD-CSS/emoji/hamo56.gif");
-    --bg-img12: url("https://ingether.github.io/TGD-CSS/emoji/dw56.gif");
-    --bg-img13: url("https://ingether.github.io/TGD-CSS/emoji/kkk56.gif");
-    /* --bg-img14: url("https://ingether.github.io/TGD-CSS/gif/tp112.png");
-    --bg-img15: url("https://ingether.github.io/TGD-CSS/gif/light.png"); */
-}
+
 
 /** 글작성 후 보이는 이미지 수정**/
 img[alt="JKanStyle"],
@@ -619,13 +630,15 @@ img[alt="KevinTurtle"],
     background-size: 50px 50px;
 }
 
-/* #article-content-wrapper #article-content img[alt="ArsonNoSexy"] {
+#article-content-wrapper #article-content img[alt="ArsonNoSexy"] {
     background: var(--bg-img14);
     width: 100px;
     height: 100px !important;
     padding-left: 100px;
     background-size: 100px 100px;
-} 
+}
+
+/*
 #article-content-wrapper #article-content img[alt="SMOrc"] {
     background: var(--bg-img15);
     width: 50px;

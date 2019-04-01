@@ -1,12 +1,41 @@
+/* sort by Beautify */
+
 /*
-** Copyright(c) 2017-2018 All rights reserved by nanajam777
-** This script highlights several specific articles.
+** Github : http://github.com/ingether/TGD-CSS/
+** assets : http://github.com/ingether/assets/
+** Copyright(c) 2017-2019 All rights reserved by nanajam777 (contact: friendshiping777@gmail.com)
+**
+** 잉게더는 트게더의 커스텀 CSS 운영정책을 존중합니다.
+**
+** 잉게더 디자인에 기여하고 싶으시다면, Pull request 해주세요. 
+** 검토 후 Merge 하도록 하겠습니다.
+** 해당 관련 문의 ingether@hotmail.com
 */
 
+/* @todo: replace to thumbnail for optimizing data */
 :root {
     --color1: #70b7ff;
     --color2: #0099ff;
     --color3: #96c7f7;
+
+    --img-badge: url("https://ingether.github.io/assets/image/badge.png");
+    --img-totop: url("https://ingether.github.io/assets/image/movetotop.png");
+
+    --bg-img1-t: url("https://ingether.github.io/assets/emoji/24/ok.png");
+    --bg-img2-t: url("https://ingether.github.io/assets/emoji/24/ace.png");
+    --bg-img3-t: url("https://ingether.github.io/assets/emoji/24/appear.png");
+    --bg-img4-t: url("https://ingether.github.io/assets/emoji/24/clap.png");
+    --bg-img5-t: url("https://ingether.github.io/assets/emoji/24/salute.png");
+    --bg-img6-t: url("https://ingether.github.io/assets/emoji/24/boq.png");
+    --bg-img7-t: url("https://ingether.github.io/assets/emoji/24/taebo.png");
+    --bg-img8-t: url("https://ingether.github.io/assets/emoji/24/sg.png");
+    --bg-img9-t: url("https://ingether.github.io/assets/emoji/24/sexy.png");
+    --bg-img10-t: url("https://ingether.github.io/assets/emoji/24/bang.png");
+    --bg-img11-t: url("https://ingether.github.io/assets/emoji/24/hamo.png");
+    --bg-img12-t: url("https://ingether.github.io/assets/emoji/24/dw.png");
+    --bg-img13-t: url("https://ingether.github.io/assets/emoji/24/kkk.png");
+    --bg-img14-t: url("https://ingether.github.io/assets/emoji/24/wink.png");
+    /* --bg-img15-t: url("https://ingether.github.io/assets/emoji/24/light.png"); */
 }
 
 /* change popular posts' icon */
@@ -18,7 +47,7 @@ span.a-badge i.fa.fa-star {
     height: 15px;
     background-repeat: no-repeat;
     background-size: 15px 15px;
-    background: url(https://ingether.github.io/TGD-CSS/assets/badge.png);
+    background: var(--img-badge);
     animation: infinite rot360 1.2s;
 }
 
@@ -69,7 +98,7 @@ span.a-badge i.fa.fa-star {
 #movetotop {
     display: inline-block;
     opacity: 1;
-    background: url("https://ingether.github.io/TGD-CSS/assets/movetotop.png");
+    background: var(--img-totop);
     width: 80px;
     height: 80px;
     background-size: contain;
@@ -383,25 +412,7 @@ a.btn-sm:nth-child(1):active {
     color: white !important;
 }
 
-/* @todo: replace to thumbnail for optimizing data */
-/** 이모티콘창에서 보이는 이모티콘 이미지 수정 **/
-:root {
-    --bg-img1-t: url("https://ingether.github.io/TGD-CSS/emoji/ok.png");
-    --bg-img2-t: url("https://ingether.github.io/TGD-CSS/emoji/ace.png");
-    --bg-img3-t: url("https://ingether.github.io/TGD-CSS/emoji/appear.png");
-    --bg-img4-t: url("https://ingether.github.io/TGD-CSS/emoji/clap.png");
-    --bg-img5-t: url("https://ingether.github.io/TGD-CSS/emoji/salute.png");
-    --bg-img6-t: url("https://ingether.github.io/TGD-CSS/emoji/boq.png");
-    --bg-img7-t: url("https://ingether.github.io/TGD-CSS/emoji/taebo.png");
-    --bg-img8-t: url("https://ingether.github.io/TGD-CSS/emoji/sg.png");
-    --bg-img9-t: url("https://ingether.github.io/TGD-CSS/emoji/sexy.png");
-    --bg-img10-t: url("https://ingether.github.io/TGD-CSS/emoji/bang.png");
-    --bg-img11-t: url("https://ingether.github.io/TGD-CSS/emoji/hamo.png");
-    --bg-img12-t: url("https://ingether.github.io/TGD-CSS/emoji/dw.png");
-    --bg-img13-t: url("https://ingether.github.io/TGD-CSS/emoji/kkk.png");
-    /* --bg-img14-t: url("https://ingether.github.io/TGD-CSS/emoji/tp.png");
-    --bg-img15-t: url("https://ingether.github.io/TGD-CSS/emoji/light.png"); */
-}
+
 
 .fr-command.fr-emoticon[data-param1=JKanStyle]>img {
     width: 24px !important;
@@ -507,17 +518,18 @@ a.btn-sm:nth-child(1):active {
     background-size: 100%;
 }
 
-/* .fr-command.fr-emoticon[data-param1=ArsonNoSexy] > img { 
-    width: 24px !important; 
-    height: 24px !important; 
+.fr-command.fr-emoticon[data-param1=ArsonNoSexy]>img {
+    width: 24px !important;
+    height: 24px !important;
     padding-left: 24px;
     background-image: var(--bg-img14-t);
     background-size: 100%;
-} 
-.fr-command.fr-emoticon[data-param1=SMOrc] > img { 
+}
+
+/* .fr-command.fr-emoticon[data-param1=SMOrc] > img { 
     width: 24px !important; 
     height: 24px !important; 
     padding-left: 24px;
     background-image: var(--bg-img15-t);
     background-size: 100%;
-}  */
+} */

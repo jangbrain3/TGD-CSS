@@ -3,10 +3,15 @@
 @import url("https://ingether.github.io/TGD-CSS/CSS/common.css");
 
 /*
-** Github : http://github.com/Ingether/TGD-CSS/
-** Copyright(c) 2017-2019 All rights reserved by nanajam777
+** Github : http://github.com/ingether/TGD-CSS/
+** assets : http://github.com/ingether/assets/
+** Copyright(c) 2017-2019 All rights reserved by nanajam777 (contact: friendshiping777@gmail.com)
 **
 ** 잉게더는 트게더의 커스텀 CSS 운영정책을 존중합니다.
+**
+** 잉게더 디자인에 기여하고 싶으시다면, Pull request 해주세요. 
+** 검토 후 Merge 하도록 하겠습니다.
+** 해당 관련 문의 ingether@hotmail.com
 */
 
 @font-face {
@@ -14,6 +19,27 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRRA_R.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+:root {
+    --img-main: url("https://ingether.github.io/assets/image/main.png");
+    --img-logo: url("https://ingether.github.io/assets/image/title.png");
+
+    --bg-img1: url("https://ingether.github.io/assets/emoji/112/ok.gif");
+    --bg-img2: url("https://ingether.github.io/assets/emoji/112/ace.gif");
+    --bg-img3: url("https://ingether.github.io/assets/emoji/112/appear.gif");
+    --bg-img4: url("https://ingether.github.io/assets/emoji/112/clap.gif");
+    --bg-img5: url("https://ingether.github.io/assets/emoji/112/salute.gif");
+    --bg-img6: url("https://ingether.github.io/assets/emoji/112/boq.gif");
+    --bg-img7: url("https://ingether.github.io/assets/emoji/112/taebo.gif");
+    --bg-img8: url("https://ingether.github.io/assets/emoji/112/sg.gif");
+    --bg-img9: url("https://ingether.github.io/assets/emoji/112/sexy.gif");
+    --bg-img10: url("https://ingether.github.io/assets/emoji/112/bang.gif");
+    --bg-img11: url("https://ingether.github.io/assets/emoji/112/hamo.gif");
+    --bg-img12: url("https://ingether.github.io/assets/emoji/112/dw.gif");
+    --bg-img13: url("https://ingether.github.io/assets/emoji/112/kkk.gif");
+    --bg-img14: url("https://ingether.github.io/assets/emoji/112/wink.gif");
+    /* --bg-img15: url("https://ingether.github.io/assets/emoji/112/light.png"); */
 }
 
 /* 배경 그라디언트 */
@@ -55,7 +81,7 @@ header #header-bar>.row {
 /* 트게더 메인으로 */
 header .row>div:nth-child(1)>a {
     background-repeat: no-repeat;
-    background-image: url(https://ingether.github.io/TGD-CSS/assets/main.png);
+    background-image: var(--img-main);
     background-size: 120px;
     width: 120px;
     height: 40px;
@@ -69,7 +95,7 @@ header .row>div:nth-child(1)>a img {
 
 /* 타이틀 이미지  */
 .fa-user:before {
-    content: url(https://ingether.github.io/TGD-CSS/assets/title.png);
+    content: var(--img-logo);
     left: 236px;
     top: -134px;
     position: absolute;
@@ -349,27 +375,6 @@ header #header-bar #header-top-notice strong.notice-badge {
     }
 }
 
-
-:root {
-    --bg-img1: url("https://ingether.github.io/TGD-CSS/emoji/ok112.gif");
-    --bg-img2: url("https://ingether.github.io/TGD-CSS/emoji/ace112.gif");
-    --bg-img3: url("https://ingether.github.io/TGD-CSS/emoji/appear112.gif");
-    --bg-img4: url("https://ingether.github.io/TGD-CSS/emoji/clap112.gif");
-    --bg-img5: url("https://ingether.github.io/TGD-CSS/emoji/salute112.gif");
-    --bg-img6: url("https://ingether.github.io/TGD-CSS/emoji/boq112.gif");
-    --bg-img7: url("https://ingether.github.io/TGD-CSS/emoji/taebo112.gif");
-    --bg-img8: url("https://ingether.github.io/TGD-CSS/emoji/sg112.gif");
-    --bg-img9: url("https://ingether.github.io/TGD-CSS/emoji/sexy112.gif");
-    --bg-img10: url("https://ingether.github.io/TGD-CSS/emoji/bang112.gif");
-    --bg-img11: url("https://ingether.github.io/TGD-CSS/emoji/hamo112.gif");
-    --bg-img12: url("https://ingether.github.io/TGD-CSS/emoji/dw112.gif");
-    --bg-img13: url("https://ingether.github.io/TGD-CSS/emoji/kkk112.gif");
-    /* --bg-img14: url("https://ingether.github.io/TGD-CSS/emoji/tp112.png");
-    --bg-img15: url("https://ingether.github.io/TGD-CSS/emoji/light.png"); */
-
-    --size: 112px !important;
-}
-
 /** 글작성 후 보이는 이미지 수정**/
 .fr-emoticon.fr-deletable>img[alt=JKanStyle] {
     width: 112px !important;
@@ -475,14 +480,15 @@ header #header-bar #header-top-notice strong.notice-badge {
     background-size: 100%;
 }
 
-/* .fr-emoticon.fr-deletable > img[alt=ArsonNoSexy]{ 
+.fr-emoticon.fr-deletable>img[alt=ArsonNoSexy] {
     width: 224px !important;
     height: 224px !important;
     padding-left: 224px !important;
     background-image: var(--bg-img14);
-    background-size: 100%; 
+    background-size: 100%;
 }
-.fr-emoticon.fr-deletable > img[alt=SMOrc]{ 
+
+/* .fr-emoticon.fr-deletable > img[alt=SMOrc]{ 
     width: 112px !important;
     height: 112px !important;
     padding-left: 112px !important;
