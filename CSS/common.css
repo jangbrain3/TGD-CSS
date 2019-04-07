@@ -136,110 +136,6 @@ span.a-badge i.fa.fa-star {
 
 /* 페이지 하단  */
 
-/* 페이지 버튼 - 일반  */
-.pagination>li>a,
-.pagination>li>span {
-    color: #ffffff;
-    background-color: #99ccff;
-    border: none;
-    border-bottom: 4px solid #70b7ff;
-}
-
-/* 페이지버튼 - 포커스, 마우스오버 */
-.pagination>li>a:hover,
-.pagination>.active>a,
-.pagination>.active>a:hover,
-.pagination>.active>a:focus,
-.pagination>.active>span,
-.pagination>.active>span:hover,
-.pagination>.active>span:focus {
-    margin-top: 2px;
-    color: #ffffff;
-    background-color: #70b7ff;
-    border-bottom: 1px solid #70b7ff;
-    transition: all ease-in-out .1s;
-}
-
-/* 글쓰기 버튼 */
-.btn-info,
-.btn-primary {
-    border: 0 !important;
-    margin-top: 0 !important;
-    margin-bottom: 3px !important;
-    background: #0099ff !important;
-    color: #fff !important;
-    font-weight: 700 !important;
-    font-size: 9pt !important;
-    border-radius: 5px !important;
-    box-shadow: 0 4px 0 0 #015d9b !important
-}
-
-.btn-info:hover,
-.btn-primary:hover {
-    margin-top: 2px !important;
-    margin-bottom: 1px !important;
-    background: #70b7ff !important;
-    box-shadow: 0 2px 0 0 #015d9b !important;
-    transition: all ease-in-out .1s;
-}
-
-.btn-info:active,
-.btn-primary:active {
-    margin-top: 3px !important;
-    margin-bottom: 0 !important;
-    background: #70b7ff !important;
-    box-shadow: 0 1px 0 0 #015d9b !important
-}
-
-/* 인기글 버튼 */
-.btn.best {
-    border: 0 !important;
-    margin-top: 0 !important;
-    margin-bottom: 3px !important;
-    background: #f3ce36 !important;
-    color: #fff !important;
-    font-weight: 700 !important;
-    font-size: 9pt !important;
-    border-radius: 5px !important;
-    box-shadow: 0 4px 0 0 #c7a620 !important
-}
-
-.btn.best:hover {
-    margin-top: 2px !important;
-    margin-bottom: 1px !important;
-    background: #ecc528 !important;
-    box-shadow: 0 2px 0 0 #c7a620 !important;
-    transition: all ease-in-out .1s;
-}
-
-.btn.best:active {
-    margin-top: 3px !important;
-    margin-bottom: 0 !important;
-    background: #ecc528 !important;
-    box-shadow: 0 1px 0 0 #c7a620 !important
-}
-
-.btn.best.enable {
-    margin-top: 2px !important;
-    margin-bottom: 1px !important;
-    box-shadow: 0 2px 0 0 #c7a620 !important
-}
-
-.btn.best.enable:hover {
-    margin-top: 1px !important;
-    margin-bottom: 2px !important;
-    background: #ecc528 !important;
-    box-shadow: 0 3px 0 0 #c7a620 !important;
-    transition: all ease-in-out .1s;
-}
-
-.btn.best.enable:active {
-    margin-top: 3px !important;
-    margin-bottom: 0 !important;
-    background: #ecc528 !important;
-    box-shadow: 0 1px 0 0 #c7a620 !important
-}
-
 /* 잉게더 검색창 버튼 */
 .input-group-btn>.btn {
     border: 0 !important;
@@ -324,22 +220,6 @@ div #article-list #boardSearchForm input {
     box-shadow: 0 1px 0 0 #66a757 !important;
 }
 
-/* 좋아요 버튼  */
-.vote-area>.btn-outline-success {
-    font-weight: 700;
-    font-size: 0;
-    width: 75px;
-    height: 45px;
-    color: wthie !important;
-    margin-top: 0;
-    margin-bottom: 6px;
-    border: 3px solid var(--color2) !important;
-    border-radius: 50px;
-    background-color: var(--color1);
-    box-shadow: 0 6px 0 0 var(--color2);
-    outline: 0 !important;
-}
-
 .vote-area>.btn-outline-success>i {
     font-size: 15pt;
     color: white;
@@ -371,48 +251,6 @@ div #article-list #boardSearchForm input {
 .vote-area>.btn-outline-success:focus {
     color: #c6fdff !important;
 }
-
-/* 목록 및 스크랩  */
-a.btn:nth-child(4),
-a.btn:nth-child(3),
-a.btn:nth-child(2),
-a.btn-sm:nth-child(1) {
-    width: 75px;
-    height: 32px;
-    color: wthie !important;
-    margin-top: 0;
-    margin-bottom: 6px;
-    border: 3px solid var(--color2) !important;
-    border-radius: 50px;
-    background-color: white;
-    box-shadow: 0 6px 0 0 var(--color2);
-    outline: 0 !important;
-}
-
-a.btn:nth-child(4):hover,
-a.btn:nth-child(3):hover,
-a.btn:nth-child(2):hover,
-a.btn-sm:nth-child(1):hover {
-    margin-top: 3px;
-    margin-bottom: 3px;
-    background-color: var(--color3);
-    border-color: var(--color2) !important;
-    box-shadow: 0 3px 0 0 var(--color2);
-    transition: all ease-in-out .1s;
-}
-
-a.btn:nth-child(4):active,
-a.btn:nth-child(3):active,
-a.btn:nth-child(2):active,
-a.btn-sm:nth-child(1):active {
-    margin-top: 6px;
-    margin-bottom: 0;
-    background-color: var(--color2);
-    box-shadow: 0 0 0 0 var(--color2);
-    color: white !important;
-}
-
-
 
 .fr-command.fr-emoticon[data-param1=JKanStyle]>img {
     width: 24px !important;
